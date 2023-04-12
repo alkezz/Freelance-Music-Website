@@ -1,68 +1,88 @@
 @keyframes rainbow {
-    0% {background-color: red;}
-    14% {background-color: orange;}
-    28% {background-color: yellow;}
-    42% {background-color: green;}
-    57% {background-color: blue;}
-    71% {background-color: indigo;}
-    85% {background-color: violet;}
-    100% {background-color: red;}
-  }
-
-.home-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    color: wheat;
+  0% {
     background-color: red;
+  }
+  14% {
+    background-color: orange;
+  }
+  28% {
+    background-color: yellow;
+  }
+  42% {
+    background-color: green;
+  }
+  57% {
+    background-color: blue;
+  }
+  71% {
+    background-color: indigo;
+  }
+  85% {
+    background-color: violet;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
+  background-color: red;
   transition: background-color linear;
   animation: rainbow 10s infinite;
   height: 100vh;
 }
 
-.middle-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* margin-top: 12%; */
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 12%; */
 }
 
-.links-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Bright;
-    font-size: 50px;
-    margin-top: 20px;
+.links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Bright;
+  font-size: 50px;
+  margin-top: 20px;
 }
 
-.music-link{
-    color: wheat;
-    text-decoration: none;
+.music-link {
+  color: wheat;
+  text-decoration: none;
 }
 
-.music-link:hover{
-    text-decoration: underline;
+.music-link:hover {
+  text-decoration: underline;
 }
 
-.donations-link{
-    color: wheat;
-    text-decoration: none;
+.donations-link {
+  color: wheat;
+  text-decoration: none;
 }
-.donations-link:hover{
-    text-decoration: underline;
+.donations-link:hover {
+  text-decoration: underline;
 }
-.title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
 }
-#title-span{
-    font-size: 70px;
-    font-family: Bright;
+#title-span {
+  font-size: 70px;
+  font-family: Bright;
 }
-.home-logo-image{
-    width: 250px;
+.home-logo-image {
+  width: 250px;
+}
+#home-image {
+  width: 300px;
+  border-radius: 20px;
 }

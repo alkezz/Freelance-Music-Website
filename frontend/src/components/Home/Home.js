@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import homeImage from "../../assets/homeImage.jpg"
 import homeImageOne from "../../assets/home-image-1.png"
 import homeImageTwo from "../../assets/home-image-2.png"
 import homeImageThree from "../../assets/home-image-3.png"
@@ -9,6 +10,9 @@ import "../Home/Home.css"
 const Home = () => {
     return (
         <div className="home-container">
+            <div style={{ marginRight: "60px" }}>
+                <img id="home-image" src={homeImage} />
+            </div>
             <div className="middle-container">
                 <div className="title">
                     <span id="title-span">You Will Know</span>
@@ -30,6 +34,9 @@ const Home = () => {
                         </Link>
                     </div>
                 </div>
+            </div>
+            <div style={{ marginLeft: "60px" }}>
+                <img id="home-image" src={homeImageThree} />
             </div>
         </div>
     )
