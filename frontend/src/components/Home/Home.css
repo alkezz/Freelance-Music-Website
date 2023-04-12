@@ -24,65 +24,201 @@
     background-color: red;
   }
 }
+@media screen and (min-width: 1100px) {
+  body {
+    background-color: red;
+    transition: background-color linear;
+    animation: rainbow 10s infinite;
+  }
+  .home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    height: 100vh;
+    width: 100%;
+  }
 
-.home-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  color: wheat;
-  background-color: red;
-  transition: background-color linear;
-  animation: rainbow 10s infinite;
-  height: 100vh;
-}
+  .middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 12%; */
+  }
 
-.middle-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* margin-top: 12%; */
-}
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Bright;
+    font-size: 50px;
+    margin-top: 20px;
+  }
 
-.links-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: Bright;
-  font-size: 50px;
-  margin-top: 20px;
-}
+  .music-link {
+    color: wheat;
+    text-decoration: none;
+  }
 
-.music-link {
-  color: wheat;
-  text-decoration: none;
-}
+  .music-link:hover {
+    text-decoration: underline;
+  }
 
-.music-link:hover {
-  text-decoration: underline;
+  .donations-link {
+    color: wheat;
+    text-decoration: none;
+  }
+  .donations-link:hover {
+    text-decoration: underline;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #title-span {
+    font-size: 70px;
+    font-family: Bright;
+  }
+  .home-logo-image {
+    width: 250px;
+  }
+  #home-image {
+    width: 300px;
+    border-radius: 20px;
+  }
 }
+@media screen and (max-width: 1099px) and (min-width: 1005px) {
+  body {
+    background-color: red;
+    transition: background-color linear;
+    animation: rainbow 10s infinite;
+  }
+  .home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    height: 100vh;
+    width: 100%;
+  }
 
-.donations-link {
-  color: wheat;
-  text-decoration: none;
+  .middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 12%; */
+  }
+
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Bright;
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  .music-link {
+    color: wheat;
+    text-decoration: none;
+  }
+
+  .music-link:hover {
+    text-decoration: underline;
+  }
+
+  .donations-link {
+    color: wheat;
+    text-decoration: none;
+  }
+  .donations-link:hover {
+    text-decoration: underline;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #title-span {
+    font-size: 70px;
+    font-family: Bright;
+  }
+  .home-logo-image {
+    width: 250px;
+  }
+  #home-image {
+    width: 250px;
+    border-radius: 20px;
+  }
 }
-.donations-link:hover {
-  text-decoration: underline;
-}
-.title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-}
-#title-span {
-  font-size: 70px;
-  font-family: Bright;
-}
-.home-logo-image {
-  width: 250px;
-}
-#home-image {
-  width: 300px;
-  border-radius: 20px;
+@media screen and (max-width: 1004px) {
+  body {
+    background-color: red;
+    transition: background-color linear;
+    animation: rainbow 10s infinite;
+  }
+  .home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 12%; */
+  }
+
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Bright;
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  .music-link {
+    color: wheat;
+    text-decoration: none;
+  }
+
+  .music-link:hover {
+    text-decoration: underline;
+  }
+
+  .donations-link {
+    color: wheat;
+    text-decoration: none;
+  }
+  .donations-link:hover {
+    text-decoration: underline;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #title-span {
+    font-size: 66px;
+    font-family: Bright;
+  }
+  .home-logo-image {
+    width: 250px;
+  }
+  #home-image {
+    width: 200px;
+    border-radius: 20px;
+  }
 }

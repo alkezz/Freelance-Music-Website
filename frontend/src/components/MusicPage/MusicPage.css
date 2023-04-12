@@ -59,7 +59,7 @@
   }
   .about-me-paragraph {
     color: wheat;
-    width: 90%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 844px) and (min-width: 675px) {
