@@ -13,10 +13,17 @@ const MusicPage = () => {
         }, 500)
     })
     return (
-        <>
+        <div style={{ backgroundColor: "#d41d1d" }} className="page-container">
+            {/* <div className="top-navbar">
+                <Link to="/">
+                    <img className="logo-image" src={logo} />
+                </Link>
+                <Link className="donate-page-music-link" to="/">Home</Link>
+                <Link className="donate-page-music-link" to="/donate">Donate</Link>
+            </div> */}
             <div className="music-page-container">
                 <Link to="/">
-                    <img id='image-logo' src={logo} />
+                    <img alt="logo" id='image-logo' src={logo} />
                 </Link>
                 <br />
                 <div className="streaming-services-container">
@@ -52,32 +59,29 @@ const MusicPage = () => {
                     <div className="stay-connected" style={{ display: "flex", flexDirection: "column" }}>
                         <h2>Stay Connected</h2>
                         <Link style={{ textDecoration: "none", color: "#d41d1d" }} to={"https://www.twitter.com/aliezzobezzo"} target="_blank">
-                            <i class="fa-brands fa-twitter fa-2x"></i>
-                            &nbsp;
+                            <i style={{ width: "40px" }} class="fa-brands fa-twitter fa-2x"></i>
                             @AliEzzoBezzo
                         </Link>
                         &nbsp;
                         <Link to='https://www.instagram.com/aliezedine' target="_blank" style={{ textDecoration: "none", color: "#d41d1d" }}>
-                            <i class="fa-brands fa-instagram fa-2x"></i>
-                            &nbsp;
-                            @aliezedine
+                            <i style={{ width: "40px" }} class="fa-brands fa-instagram fa-2x"></i>
+                            <span>@aliezedine</span>
                         </Link>
                         &nbsp;
                         <Link to='https://www.tiktok.com/@YouWillKnowAloushi' target="_blank" style={{ textDecoration: "none", color: "#d41d1d" }}>
-                            <i class="fa-brands fa-tiktok fa-2x"></i>
-                            &nbsp;
+                            <i style={{ width: "40px" }} class="fa-brands fa-tiktok fa-2x"></i>
                             @YouWillKnowAloushi
                         </Link>
                         <p style={{ color: "#d41d1d", fontSize: "10px", marginTop: "50px" }}>© 2023 You Will Know Ali All Rights Reserved</p>
                     </div>
                     <div className="ali-logo">
                         <Link to="/">
-                            <img style={{ width: "200px", height: "200px", paddingTop: "20px" }} src={aliLogo} />
+                            <img alt="logo" style={{ width: "200px", height: "200px", paddingTop: "20px" }} src={aliLogo} />
                         </Link>
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

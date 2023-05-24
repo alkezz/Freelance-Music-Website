@@ -1,12 +1,10 @@
 @media screen and (min-width: 825px) {
-  body {
-    background-color: #d41d1d;
-  }
   .music-page-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    background-color: #b11e1e;
+    padding-top: 20px;
   }
   #image-logo {
     width: 200px;
