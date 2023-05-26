@@ -27,11 +27,11 @@ const MusicPage = () => {
                 </Link>
                 <br />
                 <div className="streaming-services-container">
-                    <span className='streaming-logo spotify'><i style={{ display: "flex", justifyContent: "center", color: "#1ed760", marginTop: "-10px" }} class="fa-brands fa-spotify fa-5x"></i></span>
-                    <span className='streaming-logo apple'><i style={{ display: "flex", justifyContent: "center", marginTop: "-10px" }} class="fa-brands fa-apple fa-5x"></i></span>
-                    <span className='streaming-logo youtube'><i style={{ display: "flex", justifyContent: "center", color: "red", marginTop: "-10px" }} class="fa-brands fa-youtube fa-5x"></i></span>
-                    <span className='streaming-logo soundcloud'><i style={{ display: "flex", justifyContent: "center", color: "#ff5500", marginTop: "-10px" }} class="fa-brands fa-soundcloud fa-5x"></i></span>
-                    <span className='streaming-logo amazon'><i style={{ display: "flex", justifyContent: "center", marginTop: "-10px" }} class="fa-brands fa-amazon fa-5x"></i></span>
+                    <span className='streaming-logo spotify'><i style={{ display: "flex", justifyContent: "center", color: "#1ed760", marginTop: "-20px" }} class="fa-brands fa-spotify fa-5x"></i></span>
+                    <span className='streaming-logo apple'><i style={{ display: "flex", justifyContent: "center", marginTop: "-23px" }} class="fa-brands fa-apple fa-5x"></i></span>
+                    <span className='streaming-logo youtube'><i style={{ display: "flex", justifyContent: "center", color: "red", marginTop: "-20px" }} class="fa-brands fa-youtube fa-5x"></i></span>
+                    <span className='streaming-logo soundcloud'><i style={{ display: "flex", justifyContent: "center", color: "#ff5500", marginTop: "-20px" }} class="fa-brands fa-soundcloud fa-5x"></i></span>
+                    <span className='streaming-logo amazon'><i style={{ display: "flex", justifyContent: "center", marginTop: "-20px" }} class="fa-brands fa-amazon fa-5x"></i></span>
                 </div>
                 <br />
                 <br />
