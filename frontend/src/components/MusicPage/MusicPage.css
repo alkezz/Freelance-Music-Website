@@ -250,6 +250,7 @@
   .streaming-services-container {
     position: relative;
     padding-bottom: 175px;
+    margin-left: 25px;
   }
   .streaming-logo {
     /* border: 1px solid white; */
@@ -325,6 +326,7 @@
   .streaming-services-container {
     position: relative;
     padding-bottom: 175px;
+    margin-right: 30px;
   }
   .streaming-logo {
     /* border: 1px solid white; */
