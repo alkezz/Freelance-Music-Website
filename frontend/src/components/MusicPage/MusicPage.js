@@ -27,11 +27,11 @@ const MusicPage = () => {
                 </Link>
                 <br />
                 <div className="streaming-services-container">
-                    <span id='streaming-logo'><i style={{ display: "flex", justifyContent: "center", color: "#1ed760", marginTop: "-10px" }} class="fa-brands fa-spotify fa-5x"></i></span>
-                    <span id='streaming-logo'><i style={{ display: "flex", justifyContent: "center", marginTop: "-10px" }} class="fa-brands fa-apple fa-5x"></i></span>
-                    <span id='streaming-logo'><i style={{ display: "flex", justifyContent: "center", color: "red", marginTop: "-10px" }} class="fa-brands fa-youtube fa-5x"></i></span>
-                    <span id='streaming-logo'><i style={{ display: "flex", justifyContent: "center", color: "#ff5500", marginTop: "-10px" }} class="fa-brands fa-soundcloud fa-5x"></i></span>
-                    <span id='streaming-logo'><i style={{ display: "flex", justifyContent: "center", marginTop: "-10px" }} class="fa-brands fa-amazon fa-5x"></i></span>
+                    <span className='streaming-logo spotify'><i style={{ display: "flex", justifyContent: "center", color: "#1ed760", marginTop: "-10px" }} class="fa-brands fa-spotify fa-5x"></i></span>
+                    <span className='streaming-logo apple'><i style={{ display: "flex", justifyContent: "center", marginTop: "-10px" }} class="fa-brands fa-apple fa-5x"></i></span>
+                    <span className='streaming-logo youtube'><i style={{ display: "flex", justifyContent: "center", color: "red", marginTop: "-10px" }} class="fa-brands fa-youtube fa-5x"></i></span>
+                    <span className='streaming-logo soundcloud'><i style={{ display: "flex", justifyContent: "center", color: "#ff5500", marginTop: "-10px" }} class="fa-brands fa-soundcloud fa-5x"></i></span>
+                    <span className='streaming-logo amazon'><i style={{ display: "flex", justifyContent: "center", marginTop: "-10px" }} class="fa-brands fa-amazon fa-5x"></i></span>
                 </div>
                 <br />
                 <br />
@@ -52,9 +52,9 @@ const MusicPage = () => {
                     />
                 )}
                 <br />
-                <div className="about-me-paragraph">
+                {/* <div className="about-me-paragraph">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Quisque id diam vel quam elementum pulvinar etiam. Fringilla ut morbi tincidunt augue interdum velit euismod in. Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat. Nisi est sit amet facilisis magna etiam tempor. Urna nec tincidunt praesent semper feugiat. Integer vitae justo eget magna fermentum iaculis eu non. Faucibus scelerisque eleifend donec pretium. Id porta nibh venenatis cras sed felis. Potenti nullam ac tortor vitae. Netus et malesuada fames ac turpis egestas. Vel orci porta non pulvinar neque laoreet suspendisse interdum. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Vel pharetra vel turpis nunc. Nec nam aliquam sem et tortor. Habitasse platea dictumst quisque sagittis purus. Nam at lectus urna duis convallis. Cursus mattis molestie a iaculis. Senectus et netus et malesuada fames ac turpis egestas sed.</p>
-                </div>
+                </div> */}
                 <div className="bottom-nav-container" style={{ paddingBottom: "50px", marginTop: "40px", display: "flex", flexDirection: "row", justifyContent: "space-around", width: "100%", backgroundColor: "#ffa30d", borderTop: "1px solid #d41d1d" }}>
                     <div className="stay-connected" style={{ display: "flex", flexDirection: "column" }}>
                         <h2>Stay Connected</h2>

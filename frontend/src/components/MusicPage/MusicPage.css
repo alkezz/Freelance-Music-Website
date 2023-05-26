@@ -14,12 +14,10 @@
     transition: transform 0.1s ease-in-out;
   }
   .streaming-services-container {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-evenly;
+    position: relative;
+    padding-bottom: 175px;
   }
-  #streaming-logo {
+  .streaming-logo {
     /* border: 1px solid white; */
     border-radius: 1000px;
     padding: 30px;
@@ -28,8 +26,29 @@
     width: 60px;
     background-color: white;
     cursor: pointer;
+    position: absolute;
   }
-  #streaming-logo:hover {
+  .spotify {
+    top: 75px;
+    left: -110px;
+  }
+  .apple {
+    top: 75px;
+    left: 15px;
+  }
+  .youtube {
+    top: -30px;
+    right: -200px;
+  }
+  .soundcloud {
+    top: -30px;
+    right: -75px;
+  }
+  .amazon {
+    top: -30px;
+    right: 50px;
+  }
+  .streaming-logo:hover {
     transform: scale(1.1);
     transition: transform 0.1s ease-in-out;
   }
@@ -62,13 +81,14 @@
 }
 @media screen and (max-width: 844px) and (min-width: 675px) {
   body {
-    background-color: #d41d1d;
+    background-color: #b11e1e;
   }
   .music-page-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    background-color: #b11e1e;
   }
   #image-logo {
     width: 200px;
@@ -78,22 +98,41 @@
     transition: transform 0.1s ease-in-out;
   }
   .streaming-services-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
+    position: relative;
+    padding-bottom: 175px;
   }
-  #streaming-logo {
+  .streaming-logo {
+    /* border: 1px solid white; */
     border-radius: 1000px;
-    margin-bottom: 10px;
     padding: 30px;
     width: fit-content;
     height: 60px;
     width: 60px;
     background-color: white;
     cursor: pointer;
+    position: absolute;
   }
-  #streaming-logo:hover {
+  .spotify {
+    top: 75px;
+    left: -110px;
+  }
+  .apple {
+    top: 75px;
+    left: 15px;
+  }
+  .youtube {
+    top: -30px;
+    right: -200px;
+  }
+  .soundcloud {
+    top: -30px;
+    right: -75px;
+  }
+  .amazon {
+    top: -30px;
+    right: 50px;
+  }
+  .streaming-logo:hover {
     transform: scale(1.1);
     transition: transform 0.1s ease-in-out;
   }
@@ -117,13 +156,14 @@
 }
 @media screen and (max-width: 674px) and (min-width: 531px) {
   body {
-    background-color: #d41d1d;
+    background-color: #b11e1e;
   }
   .music-page-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    background-color: #b11e1e;
   }
   #image-logo {
     width: 200px;
@@ -133,22 +173,41 @@
     transition: transform 0.1s ease-in-out;
   }
   .streaming-services-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
+    position: relative;
+    padding-bottom: 175px;
   }
-  #streaming-logo {
+  .streaming-logo {
+    /* border: 1px solid white; */
     border-radius: 1000px;
-    margin-bottom: 10px;
     padding: 30px;
     width: fit-content;
     height: 60px;
     width: 60px;
     background-color: white;
     cursor: pointer;
+    position: absolute;
   }
-  #streaming-logo:hover {
+  .spotify {
+    top: 75px;
+    left: -110px;
+  }
+  .apple {
+    top: 75px;
+    left: 15px;
+  }
+  .youtube {
+    top: -30px;
+    right: -200px;
+  }
+  .soundcloud {
+    top: -30px;
+    right: -75px;
+  }
+  .amazon {
+    top: -30px;
+    right: 50px;
+  }
+  .streaming-logo:hover {
     transform: scale(1.1);
     transition: transform 0.1s ease-in-out;
   }
@@ -172,13 +231,14 @@
 }
 @media screen and (max-width: 530px) and (min-width: 401px) {
   body {
-    background-color: #d41d1d;
+    background-color: #b11e1e;
   }
   .music-page-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    background-color: #b11e1e;
   }
   #image-logo {
     width: 200px;
@@ -188,22 +248,41 @@
     transition: transform 0.1s ease-in-out;
   }
   .streaming-services-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
+    position: relative;
+    padding-bottom: 175px;
   }
-  #streaming-logo {
+  .streaming-logo {
+    /* border: 1px solid white; */
     border-radius: 1000px;
-    margin-bottom: 10px;
     padding: 30px;
     width: fit-content;
     height: 60px;
     width: 60px;
     background-color: white;
     cursor: pointer;
+    position: absolute;
   }
-  #streaming-logo:hover {
+  .spotify {
+    top: 75px;
+    left: -110px;
+  }
+  .apple {
+    top: 75px;
+    left: 15px;
+  }
+  .youtube {
+    top: -30px;
+    right: -200px;
+  }
+  .soundcloud {
+    top: -30px;
+    right: -75px;
+  }
+  .amazon {
+    top: -30px;
+    right: 50px;
+  }
+  .streaming-logo:hover {
     transform: scale(1.1);
     transition: transform 0.1s ease-in-out;
   }
@@ -227,13 +306,14 @@
 }
 @media screen and (max-width: 400px) {
   body {
-    background-color: #d41d1d;
+    background-color: #b11e1e;
   }
   .music-page-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    background-color: #b11e1e;
   }
   #image-logo {
     width: 200px;
@@ -243,22 +323,41 @@
     transition: transform 0.1s ease-in-out;
   }
   .streaming-services-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
+    position: relative;
+    padding-bottom: 175px;
   }
-  #streaming-logo {
+  .streaming-logo {
+    /* border: 1px solid white; */
     border-radius: 1000px;
-    margin-bottom: 10px;
     padding: 30px;
     width: fit-content;
     height: 60px;
     width: 60px;
     background-color: white;
     cursor: pointer;
+    position: absolute;
   }
-  #streaming-logo:hover {
+  .spotify {
+    top: 75px;
+    left: -110px;
+  }
+  .apple {
+    top: 75px;
+    left: 15px;
+  }
+  .youtube {
+    top: -30px;
+    right: -200px;
+  }
+  .soundcloud {
+    top: -30px;
+    right: -75px;
+  }
+  .amazon {
+    top: -30px;
+    right: 50px;
+  }
+  .streaming-logo:hover {
     transform: scale(1.1);
     transition: transform 0.1s ease-in-out;
   }
