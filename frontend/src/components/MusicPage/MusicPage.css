@@ -13,6 +13,15 @@
     transform: scale(1.1);
     transition: transform 0.1s ease-in-out;
   }
+  .ali-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aliLogo {
+    width: 200px;
+    height: 200px;
+  }
   .streaming-services-container {
     position: relative;
     padding-bottom: 175px;
@@ -122,6 +131,15 @@
     transform: scale(1.1);
     transition: transform 0.1s ease-in-out;
   }
+  .ali-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aliLogo {
+    width: 200px;
+    height: 200px;
+  }
   .streaming-services-container {
     position: relative;
     padding-bottom: 175px;
@@ -227,6 +245,15 @@
   #image-logo:hover {
     transform: scale(1.1);
     transition: transform 0.1s ease-in-out;
+  }
+  .ali-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aliLogo {
+    width: 200px;
+    height: 200px;
   }
   .streaming-services-container {
     position: relative;
@@ -334,6 +361,15 @@
     transform: scale(1.1);
     transition: transform 0.1s ease-in-out;
   }
+  .ali-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aliLogo {
+    width: 200px;
+    height: 200px;
+  }
   .streaming-services-container {
     position: relative;
     padding-bottom: 175px;
@@ -440,6 +476,15 @@
   #image-logo:hover {
     transform: scale(1.1);
     transition: transform 0.1s ease-in-out;
+  }
+  .ali-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aliLogo {
+    width: 150px;
+    height: 150px;
   }
   .streaming-services-container {
     position: relative;

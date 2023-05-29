@@ -76,7 +76,7 @@ const MusicPage = () => {
                     </div>
                     <div className="ali-logo">
                         <Link to="/">
-                            <img alt="logo" style={{ width: "200px", height: "200px", paddingTop: "20px" }} src={aliLogo} />
+                            <img className="aliLogo" alt="logo" src={aliLogo} />
                         </Link>
                     </div>
                 </div>
