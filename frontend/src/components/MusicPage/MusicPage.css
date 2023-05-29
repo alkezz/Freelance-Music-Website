@@ -112,6 +112,17 @@
     color: wheat;
     width: 80%;
   }
+  /* style={{ paddingBottom: "50px", marginTop: "40px", display: "flex", flexDirection: "row", width: "100%", backgroundColor: "#ffa30d", borderTop: "1px solid #d41d1d", justifyContent: "center", alignItems: "center" }} */
+  .bottom-nav-container {
+    padding-bottom: 50px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    background-color: #ffa30d;
+    border-top: 1px solid #d41d1d;
+  }
 }
 @media screen and (max-width: 844px) and (min-width: 675px) {
   body {
@@ -226,6 +237,16 @@
   .about-me-paragraph {
     color: wheat;
     width: 90%;
+  }
+  .bottom-nav-container {
+    padding-bottom: 50px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    background-color: #ffa30d;
+    border-top: 1px solid #d41d1d;
   }
 }
 @media screen and (max-width: 674px) and (min-width: 531px) {
@@ -342,6 +363,16 @@
     color: wheat;
     width: 90%;
   }
+  .bottom-nav-container {
+    padding-bottom: 50px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    background-color: #ffa30d;
+    border-top: 1px solid #d41d1d;
+  }
 }
 @media screen and (max-width: 530px) and (min-width: 401px) {
   body {
@@ -457,6 +488,16 @@
   .about-me-paragraph {
     color: wheat;
     width: 90%;
+  }
+  .bottom-nav-container {
+    padding-bottom: 50px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    background-color: #ffa30d;
+    border-top: 1px solid #d41d1d;
   }
 }
 @media screen and (max-width: 400px) {
@@ -586,5 +627,16 @@
   .about-me-paragraph {
     color: wheat;
     width: 90%;
+  }
+  .bottom-nav-container {
+    padding-bottom: 50px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: #ffa30d;
+    border-top: 1px solid #d41d1d;
+    height: 100%;
   }
 }
