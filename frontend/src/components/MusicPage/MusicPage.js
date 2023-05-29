@@ -27,11 +27,11 @@ const MusicPage = () => {
                 </Link>
                 <br />
                 <div className="streaming-services-container">
-                    <span className='streaming-logo spotify'><i style={{ display: "flex", justifyContent: "center", color: "#1ed760", marginTop: "-20px" }} class="fa-brands fa-spotify fa-5x"></i></span>
-                    <span className='streaming-logo apple'><i style={{ display: "flex", justifyContent: "center", marginTop: "-23px" }} class="fa-brands fa-apple fa-5x"></i></span>
-                    <span className='streaming-logo youtube'><i style={{ display: "flex", justifyContent: "center", color: "red", marginTop: "-20px" }} class="fa-brands fa-youtube fa-5x"></i></span>
-                    <span className='streaming-logo soundcloud'><i style={{ display: "flex", justifyContent: "center", color: "#ff5500", marginTop: "-20px" }} class="fa-brands fa-soundcloud fa-5x"></i></span>
-                    <span className='streaming-logo amazon'><i style={{ display: "flex", justifyContent: "center", marginTop: "-20px" }} class="fa-brands fa-amazon fa-5x"></i></span>
+                    <Link to="https://open.spotify.com/artist/3MY6vqsnQMgTOJO2MEeqgm?si=p3HGe97GQy6Km-8vnKarsg" target="_blank" className='streaming-logo spotify'><i class="fa-brands fa-spotify fa-5x"></i></Link>
+                    <Link to="https://music.apple.com/us/artist/ali/1634430857" target="_blank" className='streaming-logo apple'><i class="fa-brands fa-apple fa-5x"></i></Link>
+                    <Link to="https://youtube.com/@youwillknowali412" target="_blank" className='streaming-logo youtube'><i class="fa-brands fa-youtube fa-5x"></i></Link>
+                    <Link to="https://on.soundcloud.com/crn53KykTkYZUHVi7" target="_blank" className='streaming-logo soundcloud'><i class="fa-brands fa-soundcloud fa-5x"></i></Link>
+                    <Link to="https://music.amazon.com/artists/B0B721ZN63/you-will-know-ali?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_5U7MxWRzX5RG0ag5WqWuZmS6B" target="_blank" className='streaming-logo amazon'><i class="fa-brands fa-amazon fa-5x"></i></Link>
                 </div>
                 <br />
                 <br />
@@ -44,7 +44,7 @@ const MusicPage = () => {
                     <iframe
                         style={{ borderRadius: "25px" }}
                         id='iframe-embed'
-                        src="https://www.youtube.com/embed/QbJevoHQ2Pc"
+                        src="https://www.youtube.com/embed/lOAP8pMLQ0E"
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

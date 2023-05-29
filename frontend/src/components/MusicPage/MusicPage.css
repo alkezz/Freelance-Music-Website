@@ -18,7 +18,6 @@
     padding-bottom: 175px;
   }
   .streaming-logo {
-    /* border: 1px solid white; */
     border-radius: 1000px;
     padding: 30px;
     width: fit-content;
@@ -27,6 +26,7 @@
     background-color: white;
     cursor: pointer;
     position: absolute;
+    text-decoration: none;
   }
   .spotify {
     top: 75px;
@@ -52,15 +52,30 @@
     transform: scale(1.1);
     transition: transform 0.1s ease-in-out;
   }
-  /* .top-navbar {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      position: sticky;
-      z-index: 999;
-      top: 0;
-      background-color: #d41d1d;
-    } */
+  .fa-brands {
+    display: flex;
+    justify-content: center;
+  }
+  .fa-spotify {
+    color: #1ed760;
+    margin-top: -10px;
+  }
+  .fa-apple {
+    margin-top: -15px;
+    color: black;
+  }
+  .fa-youtube {
+    margin-top: -10px;
+    color: red;
+  }
+  .fa-soundcloud {
+    color: #ff5500;
+    margin-top: -15px;
+  }
+  .fa-amazon {
+    margin-top: -10px;
+    color: black;
+  }
   .loading-video-div {
     background-color: black;
     width: 800px;
@@ -111,6 +126,7 @@
     background-color: white;
     cursor: pointer;
     position: absolute;
+    text-decoration: none;
   }
   .spotify {
     top: 75px;
@@ -131,6 +147,30 @@
   .amazon {
     top: -30px;
     right: 50px;
+  }
+  .fa-brands {
+    display: flex;
+    justify-content: center;
+  }
+  .fa-spotify {
+    color: #1ed760;
+    margin-top: -10px;
+  }
+  .fa-apple {
+    margin-top: -15px;
+    color: black;
+  }
+  .fa-youtube {
+    margin-top: -10px;
+    color: red;
+  }
+  .fa-soundcloud {
+    color: #ff5500;
+    margin-top: -15px;
+  }
+  .fa-amazon {
+    margin-top: -10px;
+    color: black;
   }
   .streaming-logo:hover {
     transform: scale(1.1);
@@ -186,6 +226,7 @@
     background-color: white;
     cursor: pointer;
     position: absolute;
+    text-decoration: none;
   }
   .spotify {
     top: 75px;
@@ -206,6 +247,30 @@
   .amazon {
     top: -30px;
     right: 50px;
+  }
+  .fa-brands {
+    display: flex;
+    justify-content: center;
+  }
+  .fa-spotify {
+    color: #1ed760;
+    margin-top: -10px;
+  }
+  .fa-apple {
+    margin-top: -15px;
+    color: black;
+  }
+  .fa-youtube {
+    margin-top: -10px;
+    color: red;
+  }
+  .fa-soundcloud {
+    color: #ff5500;
+    margin-top: -15px;
+  }
+  .fa-amazon {
+    margin-top: -10px;
+    color: black;
   }
   .streaming-logo:hover {
     transform: scale(1.1);
@@ -250,7 +315,7 @@
   .streaming-services-container {
     position: relative;
     padding-bottom: 175px;
-    margin-left: 25px;
+    margin-left: -15px;
   }
   .streaming-logo {
     /* border: 1px solid white; */
@@ -262,6 +327,7 @@
     background-color: white;
     cursor: pointer;
     position: absolute;
+    text-decoration: none;
   }
   .spotify {
     top: 75px;
@@ -282,6 +348,30 @@
   .amazon {
     top: -30px;
     right: 50px;
+  }
+  .fa-brands {
+    display: flex;
+    justify-content: center;
+  }
+  .fa-spotify {
+    color: #1ed760;
+    margin-top: -10px;
+  }
+  .fa-apple {
+    margin-top: -15px;
+    color: black;
+  }
+  .fa-youtube {
+    margin-top: -10px;
+    color: red;
+  }
+  .fa-soundcloud {
+    color: #ff5500;
+    margin-top: -15px;
+  }
+  .fa-amazon {
+    margin-top: -10px;
+    color: black;
   }
   .streaming-logo:hover {
     transform: scale(1.1);
@@ -333,11 +423,12 @@
     border-radius: 1000px;
     padding: 30px;
     width: fit-content;
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     background-color: white;
     cursor: pointer;
     position: absolute;
+    text-decoration: none;
   }
   .spotify {
     /* top: 75px;
@@ -346,6 +437,7 @@
     left: -110px; */
     top: -30px;
     right: -15px;
+    text-decoration: none;
   }
   .apple {
     /* top: 75px;
@@ -371,6 +463,30 @@
     top: 85px;
     left: 80px;
   }
+  .fa-brands {
+    display: flex;
+    justify-content: center;
+  }
+  .fa-spotify {
+    color: #1ed760;
+    margin-top: -15px;
+  }
+  .fa-apple {
+    margin-top: -20px;
+    color: black;
+  }
+  .fa-youtube {
+    margin-top: -15px;
+    color: red;
+  }
+  .fa-soundcloud {
+    color: #ff5500;
+    margin-top: -20px;
+  }
+  .fa-amazon {
+    margin-top: -15px;
+    color: black;
+  }
   .streaming-logo:hover {
     transform: scale(1.1);
     transition: transform 0.1s ease-in-out;
@@ -385,7 +501,7 @@
     border-radius: 25px;
   }
   #iframe-embed {
-    width: 300px;
+    width: 350px;
     height: 400px;
   }
   .about-me-paragraph {
