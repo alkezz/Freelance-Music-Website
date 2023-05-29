@@ -52,29 +52,39 @@
     transform: scale(1.1);
     transition: transform 0.1s ease-in-out;
   }
-  .fa-brands {
+  /* .fa-brands {
     display: flex;
     justify-content: center;
-  }
+  } */
   .fa-spotify {
     color: #1ed760;
     margin-top: -10px;
+    display: flex;
+    justify-content: center;
   }
   .fa-apple {
     margin-top: -15px;
     color: black;
+    display: flex;
+    justify-content: center;
   }
   .fa-youtube {
     margin-top: -10px;
     color: red;
+    display: flex;
+    justify-content: center;
   }
   .fa-soundcloud {
     color: #ff5500;
     margin-top: -15px;
+    display: flex;
+    justify-content: center;
   }
   .fa-amazon {
     margin-top: -10px;
     color: black;
+    display: flex;
+    justify-content: center;
   }
   .loading-video-div {
     background-color: black;
@@ -148,29 +158,35 @@
     top: -30px;
     right: 50px;
   }
-  .fa-brands {
-    display: flex;
-    justify-content: center;
-  }
   .fa-spotify {
     color: #1ed760;
     margin-top: -10px;
+    display: flex;
+    justify-content: center;
   }
   .fa-apple {
     margin-top: -15px;
     color: black;
+    display: flex;
+    justify-content: center;
   }
   .fa-youtube {
     margin-top: -10px;
     color: red;
+    display: flex;
+    justify-content: center;
   }
   .fa-soundcloud {
     color: #ff5500;
     margin-top: -15px;
+    display: flex;
+    justify-content: center;
   }
   .fa-amazon {
     margin-top: -10px;
     color: black;
+    display: flex;
+    justify-content: center;
   }
   .streaming-logo:hover {
     transform: scale(1.1);
@@ -248,29 +264,35 @@
     top: -30px;
     right: 50px;
   }
-  .fa-brands {
-    display: flex;
-    justify-content: center;
-  }
   .fa-spotify {
     color: #1ed760;
     margin-top: -10px;
+    display: flex;
+    justify-content: center;
   }
   .fa-apple {
     margin-top: -15px;
     color: black;
+    display: flex;
+    justify-content: center;
   }
   .fa-youtube {
     margin-top: -10px;
     color: red;
+    display: flex;
+    justify-content: center;
   }
   .fa-soundcloud {
     color: #ff5500;
     margin-top: -15px;
+    display: flex;
+    justify-content: center;
   }
   .fa-amazon {
     margin-top: -10px;
     color: black;
+    display: flex;
+    justify-content: center;
   }
   .streaming-logo:hover {
     transform: scale(1.1);
@@ -349,29 +371,35 @@
     top: -30px;
     right: 50px;
   }
-  .fa-brands {
-    display: flex;
-    justify-content: center;
-  }
   .fa-spotify {
     color: #1ed760;
     margin-top: -10px;
+    display: flex;
+    justify-content: center;
   }
   .fa-apple {
     margin-top: -15px;
     color: black;
+    display: flex;
+    justify-content: center;
   }
   .fa-youtube {
     margin-top: -10px;
     color: red;
+    display: flex;
+    justify-content: center;
   }
   .fa-soundcloud {
     color: #ff5500;
     margin-top: -15px;
+    display: flex;
+    justify-content: center;
   }
   .fa-amazon {
     margin-top: -10px;
     color: black;
+    display: flex;
+    justify-content: center;
   }
   .streaming-logo:hover {
     transform: scale(1.1);
@@ -463,29 +491,35 @@
     top: 85px;
     left: 80px;
   }
-  .fa-brands {
-    display: flex;
-    justify-content: center;
-  }
   .fa-spotify {
     color: #1ed760;
     margin-top: -15px;
+    display: flex;
+    justify-content: center;
   }
   .fa-apple {
     margin-top: -20px;
     color: black;
+    display: flex;
+    justify-content: center;
   }
   .fa-youtube {
     margin-top: -15px;
     color: red;
+    display: flex;
+    justify-content: center;
   }
   .fa-soundcloud {
     color: #ff5500;
     margin-top: -20px;
+    display: flex;
+    justify-content: center;
   }
   .fa-amazon {
     margin-top: -15px;
     color: black;
+    display: flex;
+    justify-content: center;
   }
   .streaming-logo:hover {
     transform: scale(1.1);
