@@ -63,9 +63,9 @@ const MusicPage = () => {
                             @AliEzzoBezzo
                         </Link>
                         &nbsp;
-                        <Link to='https://www.instagram.com/aliezedine' target="_blank" style={{ textDecoration: "none", color: "#d41d1d" }}>
+                        <Link to='https://www.instagram.com/YouWillKnowAli' target="_blank" style={{ textDecoration: "none", color: "#d41d1d" }}>
                             <i style={{ width: "40px" }} class="fa-brands fa-instagram fa-2x"></i>
-                            <span>@aliezedine</span>
+                            <span>@YouWillKnowAli</span>
                         </Link>
                         &nbsp;
                         <Link to='https://www.tiktok.com/@YouWillKnowAloushi' target="_blank" style={{ textDecoration: "none", color: "#d41d1d" }}>
