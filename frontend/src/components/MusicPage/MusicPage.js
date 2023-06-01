@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import logo from "../../assets/aliPictureLogo.png"
 import aliLogo from "../../assets/aliLogo.png"
 import CircularProgress from '@mui/material/CircularProgress';
-
+document.body.style.backgroundColor = "#b11e1e"
 const MusicPage = () => {
     const [isLoading, setIsLoading] = useState(true)
     useEffect(() => {
@@ -13,14 +13,7 @@ const MusicPage = () => {
         }, 500)
     })
     return (
-        <div style={{ backgroundColor: "#b11e1e" }} className="page-container">
-            {/* <div className="top-navbar">
-                <Link to="/">
-                    <img className="logo-image" src={logo} />
-                </Link>
-                <Link className="donate-page-music-link" to="/">Home</Link>
-                <Link className="donate-page-music-link" to="/donate">Donate</Link>
-            </div> */}
+        <>
             <div className="top-navbar">
                 <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
                     <Link to="/">
@@ -91,7 +84,7 @@ const MusicPage = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
