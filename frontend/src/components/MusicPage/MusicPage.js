@@ -22,11 +22,14 @@ const MusicPage = () => {
                 <Link className="donate-page-music-link" to="/donate">Donate</Link>
             </div> */}
             <div className="top-navbar">
-                <Link to="/">
-                    <img className="logo-image" src={logo} />
-                </Link>
+                <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
+                    <Link to="/">
+                        <img className="logo-image" src={logo} />
+                    </Link>
+                    <Link to="/" style={{ fontFamily: "Bright", color: "#d41d1d", fontSize: "44px", textDecoration: "none" }}>Home</Link>
+                    <Link className="page-link" to="/donate">Donate</Link>
+                </div>
                 {/* <Link className="donate-page-music-link" to="/">Home</Link> */}
-                <Link className="donate-page-music-link" to="/donate">Donate</Link>
             </div>
             <div className="music-page-container">
                 {/* <Link to="/">

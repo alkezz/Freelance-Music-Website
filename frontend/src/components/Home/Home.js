@@ -26,7 +26,7 @@ const Home = () => {
                     </div>
                     <br />
                     <div className="donations-link">
-                        <Link className="donations-link" to="/donate">
+                        <Link className="donations-link" target="_blank" to="https://distrokid.com/hyperfollow/youwillknowali/scum-of-the-earth">
                             Pre-Order
                         </Link>
                     </div>

@@ -7,6 +7,14 @@
     padding-top: 20px;
     margin-top: 25px;
   }
+  .page-link {
+    text-decoration: none;
+    color: #d41d1d;
+    font-family: Bright;
+    font-size: 44px;
+    margin-left: 15px;
+    height: fit-content;
+  }
   .top-navbar {
     display: flex;
     flex-direction: row;
@@ -19,10 +27,6 @@
   }
   #image-logo {
     width: 200px;
-  }
-  #image-logo:hover {
-    transform: scale(1.1);
-    transition: transform 0.1s ease-in-out;
   }
   .ali-logo {
     display: flex;
@@ -67,10 +71,6 @@
   .amazon {
     top: -30px;
     right: 50px;
-  }
-  .streaming-logo:hover {
-    transform: scale(1.1);
-    transition: transform 0.1s ease-in-out;
   }
   /* .fa-brands {
     display: flex;
@@ -139,6 +139,14 @@
   body {
     background-color: #b11e1e;
   }
+  .page-link {
+    text-decoration: none;
+    color: #d41d1d;
+    font-family: Bright;
+    font-size: 44px;
+    margin-left: 15px;
+    height: fit-content;
+  }
   .music-page-container {
     display: flex;
     flex-direction: column;
@@ -148,10 +156,6 @@
   }
   #image-logo {
     width: 200px;
-  }
-  #image-logo:hover {
-    transform: scale(1.1);
-    transition: transform 0.1s ease-in-out;
   }
   .ali-logo {
     display: flex;
@@ -227,10 +231,6 @@
     color: black;
     display: flex;
     justify-content: center;
-  }
-  .streaming-logo:hover {
-    transform: scale(1.1);
-    transition: transform 0.1s ease-in-out;
   }
   .loading-video-div {
     background-color: black;
@@ -264,6 +264,14 @@
   body {
     background-color: #b11e1e;
   }
+  .page-link {
+    text-decoration: none;
+    color: #d41d1d;
+    font-family: Bright;
+    font-size: 44px;
+    margin-left: 15px;
+    height: fit-content;
+  }
   .music-page-container {
     display: flex;
     flex-direction: column;
@@ -273,10 +281,6 @@
   }
   #image-logo {
     width: 200px;
-  }
-  #image-logo:hover {
-    transform: scale(1.1);
-    transition: transform 0.1s ease-in-out;
   }
   .ali-logo {
     display: flex;
@@ -353,10 +357,6 @@
     display: flex;
     justify-content: center;
   }
-  .streaming-logo:hover {
-    transform: scale(1.1);
-    transition: transform 0.1s ease-in-out;
-  }
   .loading-video-div {
     background-color: black;
     width: 800px;
@@ -389,6 +389,14 @@
   body {
     background-color: #b11e1e;
   }
+  .page-link {
+    text-decoration: none;
+    color: #d41d1d;
+    font-family: Bright;
+    font-size: 44px;
+    margin-left: 15px;
+    height: fit-content;
+  }
   .music-page-container {
     display: flex;
     flex-direction: column;
@@ -398,10 +406,6 @@
   }
   #image-logo {
     width: 200px;
-  }
-  #image-logo:hover {
-    transform: scale(1.1);
-    transition: transform 0.1s ease-in-out;
   }
   .ali-logo {
     display: flex;
@@ -479,10 +483,6 @@
     display: flex;
     justify-content: center;
   }
-  .streaming-logo:hover {
-    transform: scale(1.1);
-    transition: transform 0.1s ease-in-out;
-  }
   .loading-video-div {
     background-color: black;
     width: 800px;
@@ -515,6 +515,14 @@
   body {
     background-color: #b11e1e;
   }
+  .page-link {
+    text-decoration: none;
+    color: #d41d1d;
+    font-family: Bright;
+    font-size: 44px;
+    margin-left: 15px;
+    height: fit-content;
+  }
   .music-page-container {
     display: flex;
     flex-direction: column;
@@ -524,10 +532,6 @@
   }
   #image-logo {
     width: 200px;
-  }
-  #image-logo:hover {
-    transform: scale(1.1);
-    transition: transform 0.1s ease-in-out;
   }
   .ali-logo {
     display: flex;
@@ -617,10 +621,6 @@
     color: black;
     display: flex;
     justify-content: center;
-  }
-  .streaming-logo:hover {
-    transform: scale(1.1);
-    transition: transform 0.1s ease-in-out;
   }
   .loading-video-div {
     background-color: black;

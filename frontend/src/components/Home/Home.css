@@ -50,16 +50,9 @@
     text-decoration: none;
   }
 
-  .music-link:hover {
-    text-decoration: underline;
-  }
-
   .donations-link {
     color: wheat;
     text-decoration: none;
-  }
-  .donations-link:hover {
-    text-decoration: underline;
   }
   .title {
     display: flex;
@@ -114,16 +107,9 @@
     text-decoration: none;
   }
 
-  .music-link:hover {
-    text-decoration: underline;
-  }
-
   .donations-link {
     color: wheat;
     text-decoration: none;
-  }
-  .donations-link:hover {
-    text-decoration: underline;
   }
   .title {
     display: flex;
@@ -177,17 +163,9 @@
     color: wheat;
     text-decoration: none;
   }
-
-  .music-link:hover {
-    text-decoration: underline;
-  }
-
   .donations-link {
     color: wheat;
     text-decoration: none;
-  }
-  .donations-link:hover {
-    text-decoration: underline;
   }
   .title {
     display: flex;
@@ -241,17 +219,9 @@
     color: wheat;
     text-decoration: none;
   }
-
-  .music-link:hover {
-    text-decoration: underline;
-  }
-
   .donations-link {
     color: wheat;
     text-decoration: none;
-  }
-  .donations-link:hover {
-    text-decoration: underline;
   }
   .title {
     display: flex;

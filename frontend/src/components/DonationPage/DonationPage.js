@@ -26,11 +26,14 @@ const DonationPage = () => {
             {screenWidth >= 985 && (
                 <>
                     <div className="top-navbar">
-                        <Link to="/">
-                            <img className="logo-image" src={logo} />
-                        </Link>
-                        <Link className="donate-page-music-link" to="/">Home</Link>
-                        <Link className="donate-page-music-link" to="/music">Music</Link>
+                        <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
+                            <Link to="/">
+                                <img className="logo-image" src={logo} />
+                            </Link>
+                            <Link to="/" style={{ fontFamily: "Bright", color: "#d41d1d", fontSize: "44px", textDecoration: "none" }}>Home</Link>
+                            <Link className="page-link" to="/music">Music</Link>
+                        </div>
+                        {/* <Link className="donate-page-music-link" to="/">Home</Link> */}
                     </div>
                     <div className="donations-page-container">
                         <div className="donation-content-container" >
@@ -139,31 +142,28 @@ const DonationPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="bottom-nav-container" style={{ paddingBottom: "50px", marginTop: "50px", display: "flex", flexDirection: "row", justifyContent: "space-around", width: "100%", backgroundColor: "#ffa30d", borderTop: "1px solid #d41d1d" }}>
+                        <div className="bottom-nav-container">
                             <div className="stay-connected" style={{ display: "flex", flexDirection: "column" }}>
                                 <h2>Stay Connected</h2>
                                 <Link style={{ textDecoration: "none", color: "#d41d1d" }} to={"https://www.twitter.com/aliezzobezzo"} target="_blank">
-                                    <i class="fa-brands fa-twitter fa-2x"></i>
-                                    &nbsp;
+                                    <i style={{ width: "40px" }} class="fa-brands fa-twitter fa-2x"></i>
                                     @AliEzzoBezzo
                                 </Link>
                                 &nbsp;
-                                <Link to='https://www.instagram.com/aliezedine' target="_blank" style={{ textDecoration: "none", color: "#d41d1d" }}>
-                                    <i class="fa-brands fa-instagram fa-2x"></i>
-                                    &nbsp;
-                                    @aliezedine
+                                <Link to='https://www.instagram.com/YouWillKnowAli' target="_blank" style={{ textDecoration: "none", color: "#d41d1d" }}>
+                                    <i style={{ width: "40px" }} class="fa-brands fa-instagram fa-2x"></i>
+                                    <span>@YouWillKnowAli</span>
                                 </Link>
                                 &nbsp;
                                 <Link to='https://www.tiktok.com/@YouWillKnowAloushi' target="_blank" style={{ textDecoration: "none", color: "#d41d1d" }}>
-                                    <i class="fa-brands fa-tiktok fa-2x"></i>
-                                    &nbsp;
+                                    <i style={{ width: "40px" }} class="fa-brands fa-tiktok fa-2x"></i>
                                     @YouWillKnowAloushi
                                 </Link>
                                 <p style={{ color: "#d41d1d", fontSize: "10px", marginTop: "50px" }}>© 2023 You Will Know Ali All Rights Reserved</p>
                             </div>
                             <div className="ali-logo">
                                 <Link to="/">
-                                    <img style={{ width: "200px", height: "200px", paddingTop: "20px" }} src={aliLogo} />
+                                    <img className="aliLogo" alt="logo" src={aliLogo} />
                                 </Link>
                             </div>
                         </div>
@@ -173,11 +173,14 @@ const DonationPage = () => {
             {screenWidth <= 984 && screenWidth > 500 && (
                 <>
                     <div className="top-navbar">
-                        <Link to="/">
-                            <img className="logo-image" src={logo} />
-                        </Link>
+                        <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
+                            <Link to="/">
+                                <img className="logo-image" src={logo} />
+                            </Link>
+                            <Link to="/" style={{ fontFamily: "Bright", color: "#d41d1d", fontSize: "44px", textDecoration: "none" }}>Home</Link>
+                            <Link className="page-link" to="/music">Music</Link>
+                        </div>
                         {/* <Link className="donate-page-music-link" to="/">Home</Link> */}
-                        <Link className="donate-page-music-link" to="/music">Music</Link>
                     </div>
                     <div className="donations-page-container">
                         <div className="donation-content-container" >
@@ -286,31 +289,28 @@ const DonationPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="bottom-nav-container" style={{ paddingBottom: "50px", marginTop: "50px", display: "flex", flexDirection: "row", justifyContent: "space-around", width: "100%", backgroundColor: "#ffa30d", borderTop: "1px solid #d41d1d" }}>
+                        <div className="bottom-nav-container">
                             <div className="stay-connected" style={{ display: "flex", flexDirection: "column" }}>
                                 <h2>Stay Connected</h2>
                                 <Link style={{ textDecoration: "none", color: "#d41d1d" }} to={"https://www.twitter.com/aliezzobezzo"} target="_blank">
-                                    <i class="fa-brands fa-twitter fa-2x"></i>
-                                    &nbsp;
+                                    <i style={{ width: "40px" }} class="fa-brands fa-twitter fa-2x"></i>
                                     @AliEzzoBezzo
                                 </Link>
                                 &nbsp;
-                                <Link to='https://www.instagram.com/aliezedine' target="_blank" style={{ textDecoration: "none", color: "#d41d1d" }}>
-                                    <i class="fa-brands fa-instagram fa-2x"></i>
-                                    &nbsp;
-                                    @aliezedine
+                                <Link to='https://www.instagram.com/YouWillKnowAli' target="_blank" style={{ textDecoration: "none", color: "#d41d1d" }}>
+                                    <i style={{ width: "40px" }} class="fa-brands fa-instagram fa-2x"></i>
+                                    <span>@YouWillKnowAli</span>
                                 </Link>
                                 &nbsp;
                                 <Link to='https://www.tiktok.com/@YouWillKnowAloushi' target="_blank" style={{ textDecoration: "none", color: "#d41d1d" }}>
-                                    <i class="fa-brands fa-tiktok fa-2x"></i>
-                                    &nbsp;
+                                    <i style={{ width: "40px" }} class="fa-brands fa-tiktok fa-2x"></i>
                                     @YouWillKnowAloushi
                                 </Link>
                                 <p style={{ color: "#d41d1d", fontSize: "10px", marginTop: "50px" }}>© 2023 You Will Know Ali All Rights Reserved</p>
                             </div>
                             <div className="ali-logo">
                                 <Link to="/">
-                                    <img style={{ width: "200px", height: "200px", paddingTop: "20px" }} src={aliLogo} />
+                                    <img className="aliLogo" alt="logo" src={aliLogo} />
                                 </Link>
                             </div>
                         </div>
@@ -320,11 +320,14 @@ const DonationPage = () => {
             {screenWidth <= 500 && (
                 <>
                     <div className="top-navbar">
-                        <Link to="/">
-                            <img className="logo-image" src={logo} />
-                        </Link>
+                        <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
+                            <Link to="/">
+                                <img className="logo-image" src={logo} />
+                            </Link>
+                            <Link to="/" style={{ fontFamily: "Bright", color: "#d41d1d", fontSize: "44px", textDecoration: "none" }}>Home</Link>
+                            <Link className="page-link" to="/music">Music</Link>
+                        </div>
                         {/* <Link className="donate-page-music-link" to="/">Home</Link> */}
-                        <Link className="donate-page-music-link" to="/music">Music</Link>
                     </div>
                     <div className="donations-page-container">
                         <div className="donation-content-container" >
@@ -433,31 +436,28 @@ const DonationPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="bottom-nav-container" style={{ paddingBottom: "50px", marginTop: "50px", display: "flex", flexDirection: "row", justifyContent: "space-around", width: "100%", backgroundColor: "#ffa30d", borderTop: "1px solid #d41d1d" }}>
+                        <div className="bottom-nav-container">
                             <div className="stay-connected" style={{ display: "flex", flexDirection: "column" }}>
                                 <h2>Stay Connected</h2>
                                 <Link style={{ textDecoration: "none", color: "#d41d1d" }} to={"https://www.twitter.com/aliezzobezzo"} target="_blank">
-                                    <i class="fa-brands fa-twitter fa-2x"></i>
-                                    &nbsp;
+                                    <i style={{ width: "40px" }} class="fa-brands fa-twitter fa-2x"></i>
                                     @AliEzzoBezzo
                                 </Link>
                                 &nbsp;
-                                <Link to='https://www.instagram.com/aliezedine' target="_blank" style={{ textDecoration: "none", color: "#d41d1d" }}>
-                                    <i class="fa-brands fa-instagram fa-2x"></i>
-                                    &nbsp;
-                                    @aliezedine
+                                <Link to='https://www.instagram.com/YouWillKnowAli' target="_blank" style={{ textDecoration: "none", color: "#d41d1d" }}>
+                                    <i style={{ width: "40px" }} class="fa-brands fa-instagram fa-2x"></i>
+                                    <span>@YouWillKnowAli</span>
                                 </Link>
                                 &nbsp;
                                 <Link to='https://www.tiktok.com/@YouWillKnowAloushi' target="_blank" style={{ textDecoration: "none", color: "#d41d1d" }}>
-                                    <i class="fa-brands fa-tiktok fa-2x"></i>
-                                    &nbsp;
+                                    <i style={{ width: "40px" }} class="fa-brands fa-tiktok fa-2x"></i>
                                     @YouWillKnowAloushi
                                 </Link>
                                 <p style={{ color: "#d41d1d", fontSize: "10px", marginTop: "50px" }}>© 2023 You Will Know Ali All Rights Reserved</p>
                             </div>
                             <div className="ali-logo">
                                 <Link to="/">
-                                    <img style={{ width: "200px", height: "200px", paddingTop: "20px" }} src={aliLogo} />
+                                    <img className="aliLogo" alt="logo" src={aliLogo} />
                                 </Link>
                             </div>
                         </div>
