@@ -13,7 +13,7 @@ const MusicPage = () => {
         }, 500)
     })
     return (
-        <div style={{ backgroundColor: "#d41d1d" }} className="page-container">
+        <div style={{ backgroundColor: "#b11e1e" }} className="page-container">
             {/* <div className="top-navbar">
                 <Link to="/">
                     <img className="logo-image" src={logo} />
@@ -21,11 +21,18 @@ const MusicPage = () => {
                 <Link className="donate-page-music-link" to="/">Home</Link>
                 <Link className="donate-page-music-link" to="/donate">Donate</Link>
             </div> */}
-            <div className="music-page-container">
+            <div className="top-navbar">
                 <Link to="/">
-                    <img alt="logo" id='image-logo' src={logo} />
+                    <img className="logo-image" src={logo} />
                 </Link>
-                <br />
+                {/* <Link className="donate-page-music-link" to="/">Home</Link> */}
+                <Link className="donate-page-music-link" to="/donate">Donate</Link>
+            </div>
+            <div className="music-page-container">
+                {/* <Link to="/">
+                    <img alt="logo" id='image-logo' src={logo} />
+                </Link> */}
+                {/* <br /> */}
                 <div className="streaming-services-container">
                     <Link to="https://open.spotify.com/artist/3MY6vqsnQMgTOJO2MEeqgm?si=p3HGe97GQy6Km-8vnKarsg" target="_blank" className='streaming-logo spotify'><i class="fa-brands fa-spotify fa-5x"></i></Link>
                     <Link to="https://music.apple.com/us/artist/ali/1634430857" target="_blank" className='streaming-logo apple'><i class="fa-brands fa-apple fa-5x"></i></Link>

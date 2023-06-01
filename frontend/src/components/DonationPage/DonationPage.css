@@ -129,7 +129,7 @@
   }
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 984px) and (min-width: 501px) {
   .top-navbar {
     display: flex;
     flex-direction: row;
@@ -249,4 +249,242 @@
   /* #org-pic {
     width: 75%;
   } */
+}
+@media screen and (max-width: 500px) and (min-width: 431px) {
+  .top-navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 1px solid #d41d1d;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    background-color: #ffa30d;
+  }
+  .logo-image {
+    width: 150px;
+  }
+  .donate-page-music-link {
+    text-decoration: none;
+    color: #d41d1d;
+    font-family: Bright;
+    font-size: 44px;
+    margin-top: 30px;
+    margin-left: 75px;
+    height: fit-content;
+  }
+
+  .donate-page-music-link:hover {
+    text-decoration: underline;
+  }
+  .donations-page-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffa30d;
+    color: #d41d1d;
+    overflow-x: hidden;
+  }
+  #organization-name {
+    font-family: Bright;
+    font-size: 42px;
+    width: fit-content;
+    margin-bottom: -5px;
+  }
+  .org-desc {
+    width: 80%;
+  }
+  .org-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-org {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .donation-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #1e1e1e;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .donate-button {
+    margin-top: 20px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #d41d1d;
+    border: none;
+    /* height: 35px; */
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    font-family: Bright;
+    padding: 8px;
+  }
+  .donate-button:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+  }
+
+  .learn-more-button {
+    margin-top: 20px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #d41d1d;
+    border: none;
+    /* height: 35px; */
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    font-family: Bright;
+    padding: 8px;
+  }
+  .learn-more-button:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+  }
+  .buttons-container {
+    display: flex;
+    flex-direction: row;
+  }
+  /* #org-pic {
+    width: 75%;
+  } */
+}
+@media screen and (max-width: 430px) {
+  .top-navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 1px solid #d41d1d;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    background-color: #ffa30d;
+  }
+  .logo-image {
+    width: 150px;
+  }
+  .donate-page-music-link {
+    text-decoration: none;
+    color: #d41d1d;
+    font-family: Bright;
+    font-size: 44px;
+    margin-top: 30px;
+    margin-left: 75px;
+    height: fit-content;
+  }
+
+  .donate-page-music-link:hover {
+    text-decoration: underline;
+  }
+  .donations-page-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffa30d;
+    color: #d41d1d;
+    overflow-x: hidden;
+  }
+  #organization-name {
+    font-family: Bright;
+    font-size: 42px;
+    width: fit-content;
+    margin-bottom: -5px;
+  }
+  .org-desc {
+    width: 80%;
+  }
+  .org-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-org {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .donation-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #1e1e1e;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .donate-button {
+    margin-top: 20px;
+    width: 150px;
+    cursor: pointer;
+    background-color: #d41d1d;
+    border: none;
+    /* height: 35px; */
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    font-family: Bright;
+    padding: 8px;
+  }
+
+  .learn-more-button {
+    margin-top: 20px;
+    width: 150px;
+    cursor: pointer;
+    background-color: #d41d1d;
+    border: none;
+    /* height: 35px; */
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    font-family: Bright;
+    padding: 8px;
+  }
+  .buttons-container {
+    display: flex;
+    flex-direction: row;
+  }
+  /* #org-pic {
+    width: 75%;
+  } */
+}
+#organization-name {
+  text-align: center;
+  word-break: break-word;
 }

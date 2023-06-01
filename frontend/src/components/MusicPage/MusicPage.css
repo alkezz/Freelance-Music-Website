@@ -5,6 +5,17 @@
     align-items: center;
     background-color: #b11e1e;
     padding-top: 20px;
+    margin-top: 25px;
+  }
+  .top-navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 1px solid #d41d1d;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    background-color: #ffa30d;
   }
   #image-logo {
     width: 200px;
