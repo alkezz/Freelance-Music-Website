@@ -20,6 +20,7 @@ const DonationPage = () => {
             window.removeEventListener("resize", handleResize); // Clean up event listener on component unmount
         };
     }, []);
+    //If Images arent loaded we wait for them before showing the pages
     if (!lois || !warmHearts || !lebanon || !redCross || !alawaa) return null
     return (
         <>
