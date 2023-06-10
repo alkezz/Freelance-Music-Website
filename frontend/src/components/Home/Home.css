@@ -59,6 +59,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    cursor: default;
   }
   #title-span {
     font-size: 80px;
@@ -116,6 +117,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    cursor: default;
   }
   #title-span {
     font-size: 70px;
@@ -172,6 +174,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    cursor: default;
   }
   #title-span {
     font-size: 66px;
@@ -228,6 +231,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    cursor: default;
   }
   #title-span {
     font-size: 55px;
