@@ -5,12 +5,13 @@ import homeImageThree from "../../assets/home-image-3.png"
 import logo from "../../assets/aliPictureLogo.png"
 import Grow from '@mui/material/Grow';
 import Slide from '@mui/material/Slide';
+// import CircularProgress from '@mui/material/CircularProgress';
 import "../Home/Home.css"
 const Home = () => {
     return (
         <div className="home-container">
             <div style={{ marginRight: "60px" }}>
-                <img draggable={false} alt="Ali drinking water" id="home-image" src={homeImage} />
+                <img load draggable={false} alt="Ali drinking water" id="home-image" src={homeImage} />
             </div>
             <div className="middle-container">
                 <div className="title">

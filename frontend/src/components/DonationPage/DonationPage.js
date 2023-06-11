@@ -29,7 +29,7 @@ const DonationPage = () => {
                     <div className="top-navbar-donations">
                         <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
                             <Link to="/">
-                                <img draggable={false} className="logo-image" src={logo} />
+                                <img alt="logo" draggable={false} className="logo-image" src={logo} />
                             </Link>
                             <Link to="/" style={{ fontFamily: "Bright", color: "#d41d1d", fontSize: "44px", textDecoration: "none" }}>Home</Link>
                             <Link className="page-link" to="/music">Music</Link>
@@ -41,7 +41,7 @@ const DonationPage = () => {
                             <p style={{ display: "flex", justifyContent: "center", fontFamily: "Bright", fontSize: "48px" }}>Donate</p>
                             <div className="donation-option">
                                 <div className="org-image">
-                                    <img draggable={false} src={lois} />
+                                    <img alt='lois foundation' draggable={false} src={lois} />
                                 </div>
                                 <div className="about-org">
                                     <p id='organization-name'>Lois Flire Foundation</p>
@@ -76,14 +76,14 @@ const DonationPage = () => {
                                     </div>
                                 </div>
                                 <div className="org-image">
-                                    <img draggable={false} src={warmHearts} />
+                                    <img alt='Warm Hearts' draggable={false} src={warmHearts} />
                                 </div>
                             </div>
                             <br />
                             <br />
                             <div className="donation-option">
                                 <div className="org-image">
-                                    <img draggable={false} src={lebanon} />
+                                    <img alt="Beirut Heritage Initiative" draggable={false} src={lebanon} />
                                 </div>
                                 <div className="about-org">
                                     <p id='organization-name'>Beirut Heritage Initiative</p>
@@ -118,14 +118,14 @@ const DonationPage = () => {
                                     </div>
                                 </div>
                                 <div className="org-image">
-                                    <img draggable={false} src={redCross} />
+                                    <img alt='Lebanese Red Cross' draggable={false} src={redCross} />
                                 </div>
                             </div>
                             <br />
                             <br />
                             <div className="donation-option">
                                 <div className="org-image">
-                                    <img draggable={false} src={alawaa} />
+                                    <img alt='Al-Awda' draggable={false} src={alawaa} />
                                 </div>
                                 <div className="about-org">
                                     <p id='organization-name'>Al-Awda</p>
@@ -164,7 +164,7 @@ const DonationPage = () => {
                             </div>
                             <div className="ali-logo">
                                 <Link to="/">
-                                    <img draggable={false} className="aliLogo" alt="logo" src={aliLogo} />
+                                    <img alt='logo' draggable={false} className="aliLogo" src={aliLogo} />
                                 </Link>
                             </div>
                         </div>
@@ -176,7 +176,7 @@ const DonationPage = () => {
                     <div className="top-navbar">
                         <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
                             <Link to="/">
-                                <img className="logo-image" src={logo} />
+                                <img alt='logo' className="logo-image" src={logo} />
                             </Link>
                             <Link to="/" style={{ fontFamily: "Bright", color: "#d41d1d", fontSize: "44px", textDecoration: "none" }}>Home</Link>
                             <Link className="page-link" to="/music">Music</Link>
@@ -188,7 +188,7 @@ const DonationPage = () => {
                             <p style={{ display: "flex", justifyContent: "center", fontFamily: "Bright", fontSize: "48px" }}>Donate</p>
                             <div className="donation-option">
                                 <div className="org-image">
-                                    <img id='org-pic' src={lois} />
+                                    <img alt='Lois Flire Foundation' id='org-pic' src={lois} />
                                 </div>
                                 <div className="about-org">
                                     <p id='organization-name'>Lois Flire Foundation</p>
@@ -209,7 +209,7 @@ const DonationPage = () => {
                             <br />
                             <div className="donation-option">
                                 <div className="org-image">
-                                    <img id='org-pic' src={warmHearts} />
+                                    <img alt='Warm Hearts Foundation' id='org-pic' src={warmHearts} />
                                 </div>
                                 <div className="about-org">
                                     <p id='organization-name'>Warm Hearts Foundation</p>
@@ -230,7 +230,7 @@ const DonationPage = () => {
                             <br />
                             <div className="donation-option">
                                 <div className="org-image">
-                                    <img src={lebanon} />
+                                    <img alt='Beirut Heritage Initiative' src={lebanon} />
                                 </div>
                                 <div className="about-org">
                                     <p id='organization-name'>Beirut Heritage Initiative</p>
@@ -251,7 +251,7 @@ const DonationPage = () => {
                             <br />
                             <div className="donation-option">
                                 <div className="org-image">
-                                    <img src={redCross} />
+                                    <img alt='Lebanese Red Cross' src={redCross} />
                                 </div>
                                 <div className="about-org">
                                     <p id='organization-name'>Lebanese Red Cross</p>
@@ -272,7 +272,7 @@ const DonationPage = () => {
                             <br />
                             <div className="donation-option">
                                 <div className="org-image">
-                                    <img src={alawaa} />
+                                    <img alt='Al-Awda' src={alawaa} />
                                 </div>
                                 <div className="about-org">
                                     <p id='organization-name'>Al-Awda</p>
@@ -311,7 +311,7 @@ const DonationPage = () => {
                             </div>
                             <div className="ali-logo">
                                 <Link to="/">
-                                    <img className="aliLogo" alt="logo" src={aliLogo} />
+                                    <img alt='logo' className="aliLogo" src={aliLogo} />
                                 </Link>
                             </div>
                         </div>
@@ -323,7 +323,7 @@ const DonationPage = () => {
                     <div className="top-navbar">
                         <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
                             <Link to="/">
-                                <img className="logo-image" src={logo} />
+                                <img alt="logo" className="logo-image" src={logo} />
                             </Link>
                             <Link to="/" style={{ fontFamily: "Bright", color: "#d41d1d", fontSize: "44px", textDecoration: "none" }}>Home</Link>
                             <Link className="page-link" to="/music">Music</Link>
@@ -335,7 +335,7 @@ const DonationPage = () => {
                             <p style={{ display: "flex", justifyContent: "center", fontFamily: "Bright", fontSize: "48px" }}>Donate</p>
                             <div className="donation-option">
                                 <div className="org-image">
-                                    <img id='org-pic' src={lois} />
+                                    <img alt='Lois Flire Foundation' id='org-pic' src={lois} />
                                 </div>
                                 <div className="about-org">
                                     <p id='organization-name'>Lois Flire Foundation</p>
@@ -356,7 +356,7 @@ const DonationPage = () => {
                             <br />
                             <div className="donation-option">
                                 <div className="org-image">
-                                    <img id='org-pic' src={warmHearts} />
+                                    <img alt="Warm Hearts Foundation" id='org-pic' src={warmHearts} />
                                 </div>
                                 <div className="about-org">
                                     <p id='organization-name'>Warm Hearts Foundation</p>
@@ -377,7 +377,7 @@ const DonationPage = () => {
                             <br />
                             <div className="donation-option">
                                 <div className="org-image">
-                                    <img src={lebanon} />
+                                    <img alt='Beirut Heritage Initiative' src={lebanon} />
                                 </div>
                                 <div className="about-org">
                                     <p id='organization-name'>Beirut Heritage Initiative</p>
@@ -398,7 +398,7 @@ const DonationPage = () => {
                             <br />
                             <div className="donation-option">
                                 <div className="org-image">
-                                    <img style={{ width: "450px" }} src={redCross} />
+                                    <img alt='Lebanese Red Cross' style={{ width: "450px" }} src={redCross} />
                                 </div>
                                 <div className="about-org">
                                     <p style={{ textAlign: "center", wordBreak: "break-all" }} id='organization-name'>Lebanese Red Cross</p>
@@ -419,7 +419,7 @@ const DonationPage = () => {
                             <br />
                             <div className="donation-option">
                                 <div className="org-image">
-                                    <img src={alawaa} />
+                                    <img alt='Al-Awda' src={alawaa} />
                                 </div>
                                 <div className="about-org">
                                     <p id='organization-name'>Al-Awda</p>
