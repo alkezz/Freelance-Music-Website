@@ -144,6 +144,10 @@
     background-color: #ffa30d;
     border-top: 1px solid #d41d1d;
   }
+  .logo-image-music-nav {
+    width: 140px;
+    height: 110px;
+  }
 }
 @media screen and (max-width: 844px) and (min-width: 675px) {
   body {
@@ -281,6 +285,14 @@
     width: 100%;
     background-color: #ffa30d;
     border-top: 1px solid #d41d1d;
+  }
+  .logo-image-music-nav {
+    width: 150px;
+    height: 115px;
+  }
+  .logo-image-music-nav {
+    width: 140px;
+    height: 110px;
   }
 }
 @media screen and (max-width: 674px) and (min-width: 531px) {
@@ -420,6 +432,10 @@
     background-color: #ffa30d;
     border-top: 1px solid #d41d1d;
   }
+  .logo-image-music-nav {
+    width: 140px;
+    height: 110px;
+  }
 }
 @media screen and (max-width: 530px) and (min-width: 401px) {
   body {
@@ -558,6 +574,10 @@
     width: 100%;
     background-color: #ffa30d;
     border-top: 1px solid #d41d1d;
+  }
+  .logo-image-music-nav {
+    width: 130px;
+    height: 100px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -702,5 +722,9 @@
     background-color: #ffa30d;
     border-top: 1px solid #d41d1d;
     height: 100%;
+  }
+  .logo-image-music-nav {
+    height: 80px;
+    width: 100px;
   }
 }

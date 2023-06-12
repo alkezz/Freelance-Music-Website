@@ -17,10 +17,10 @@ const MusicPage = () => {
             <div className="top-navbar">
                 <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
                     <Link to="/">
-                        <img className="logo-image" src={logo} />
+                        <img className="logo-image-music-nav" src={logo} />
                     </Link>
                     <Link to="/" style={{ fontFamily: "Bright", color: "#d41d1d", fontSize: "44px", textDecoration: "none" }}>Home</Link>
-                    <Link className="page-link" to="/donate">Donate</Link>
+                    <Link className="page-link" to="/donate">Give Back</Link>
                 </div>
                 {/* <Link className="donate-page-music-link" to="/">Home</Link> */}
             </div>
