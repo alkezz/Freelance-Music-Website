@@ -17,10 +17,10 @@ const MusicPage = () => {
             <div className="top-navbar">
                 <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
                     <Link to="/">
-                        <img className="logo-image" src={logo} />
+                        <img className="logo-image-music-nav" src={logo} />
                     </Link>
                     <Link to="/" style={{ fontFamily: "Bright", color: "#d41d1d", fontSize: "44px", textDecoration: "none" }}>Home</Link>
-                    <Link className="page-link" to="/donate">Donate</Link>
+                    <Link className="page-link" to="/donate">Give Back</Link>
                 </div>
                 {/* <Link className="donate-page-music-link" to="/">Home</Link> */}
             </div>
@@ -37,6 +37,21 @@ const MusicPage = () => {
                     <Link to="https://music.amazon.com/artists/B0B721ZN63/you-will-know-ali?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_5U7MxWRzX5RG0ag5WqWuZmS6B" target="_blank" className='streaming-logo amazon'><i class="fa-brands fa-amazon fa-5x"></i></Link>
                 </div>
                 <br />
+                <br />
+                {isLoading && (
+                    <div className="loading-video-div">
+                        <CircularProgress sx={{ color: "#d41d1d" }} />
+                    </div>
+                )}
+                {!isLoading && (
+                    <iframe
+                        style={{ borderRadius: "25px" }}
+                        id='iframe-embed'
+                        src="https://www.youtube.com/embed/ikzhh_rtOI8"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+                )}
                 <br />
                 {isLoading && (
                     <div className="loading-video-div">
