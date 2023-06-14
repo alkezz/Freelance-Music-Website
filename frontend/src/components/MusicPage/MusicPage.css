@@ -24,6 +24,7 @@
     position: sticky;
     margin: 0;
     z-index: 999;
+    top: 0;
     background-color: #ffa30d;
   }
   #image-logo {
@@ -145,14 +146,14 @@
     border-top: 1px solid #d41d1d;
   }
   .logo-image-music-nav {
-    width: 140px;
-    height: 110px;
+    width: 150px;
+    height: 105px;
   }
 }
 @media screen and (max-width: 844px) and (min-width: 675px) {
-  body {
+  /* body {
     background-color: #b11e1e;
-  }
+  } */
   .page-link {
     text-decoration: none;
     color: #d41d1d;
@@ -296,9 +297,9 @@
   }
 }
 @media screen and (max-width: 674px) and (min-width: 531px) {
-  body {
+  /* body {
     background-color: #b11e1e;
-  }
+  } */
   .page-link {
     text-decoration: none;
     color: #d41d1d;
@@ -438,9 +439,9 @@
   }
 }
 @media screen and (max-width: 530px) and (min-width: 401px) {
-  body {
+  /* body {
     background-color: #b11e1e;
-  }
+  } */
   .page-link {
     text-decoration: none;
     color: #d41d1d;
@@ -581,9 +582,9 @@
   }
 }
 @media screen and (max-width: 400px) {
-  body {
+  /* body {
     background-color: #b11e1e;
-  }
+  } */
   .page-link {
     text-decoration: none;
     color: #d41d1d;

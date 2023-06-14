@@ -47,6 +47,21 @@ const MusicPage = () => {
                     <iframe
                         style={{ borderRadius: "25px" }}
                         id='iframe-embed'
+                        src="https://www.youtube.com/embed/ikzhh_rtOI8"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+                )}
+                <br />
+                {isLoading && (
+                    <div className="loading-video-div">
+                        <CircularProgress sx={{ color: "#d41d1d" }} />
+                    </div>
+                )}
+                {!isLoading && (
+                    <iframe
+                        style={{ borderRadius: "25px" }}
+                        id='iframe-embed'
                         src="https://www.youtube.com/embed/lOAP8pMLQ0E"
                         title="YouTube video player"
                         frameborder="0"
