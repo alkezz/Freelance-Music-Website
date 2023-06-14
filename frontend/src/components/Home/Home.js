@@ -15,7 +15,7 @@ const Home = () => {
             </div>
             <div className="middle-container">
                 <div className="title">
-                    <Slide {...{ timeout: 4500 }}
+                    <Slide {...{ timeout: 4000 }}
                         in={true} direction="down">
                         <span id="title-span">You Will Know</span>
                     </Slide>
@@ -27,7 +27,7 @@ const Home = () => {
                     <img alt="logo" className="home-logo-image" src={logo} />
                 </div>
                 <div className="links-container">
-                    <Grow {...{ timeout: 8500 }} in={true}>
+                    <Grow {...{ timeout: 6000 }} in={true}>
                         <div className="music-link">
                             <Link className="music-link" to="/music">
                                 Music
@@ -35,7 +35,7 @@ const Home = () => {
                         </div>
                     </Grow>
                     <br />
-                    <Grow {...{ timeout: 8500 }} in={true}>
+                    <Grow {...{ timeout: 6000 }} in={true}>
                         <div className="donations-link">
                             <Link className="donations-link" target="_blank" to="https://distrokid.com/hyperfollow/youwillknowali/scum-of-the-earth">
                                 Pre-Order
@@ -43,7 +43,7 @@ const Home = () => {
                         </div>
                     </Grow>
                     <br />
-                    <Grow {...{ timeout: 8500 }} in={true}>
+                    <Grow {...{ timeout: 6000 }} in={true}>
                         <div className="donations-link">
                             <Link className="donations-link" to="/donate">
                                 Give Back
