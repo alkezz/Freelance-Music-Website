@@ -17,7 +17,7 @@ const MusicPage = () => {
             <div className="top-navbar">
                 <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
                     <Link to="/">
-                        <img className="logo-image-music-nav" src={logo} />
+                        <img alt="logo" className="logo-image-music-nav" src={logo} />
                     </Link>
                     <Link to="/" style={{ fontFamily: "Bright", color: "#d41d1d", fontSize: "44px", textDecoration: "none" }}>Home</Link>
                     <Link className="page-link" to="/donate">Give Back</Link>
@@ -47,10 +47,11 @@ const MusicPage = () => {
                     <iframe
                         style={{ borderRadius: "25px" }}
                         id='iframe-embed'
-                        src="https://www.youtube.com/embed/ikzhh_rtOI8"
+                        src="https://www.youtube.com/embed/kOenWUyCAQM"
                         title="YouTube video player"
                         frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen />
                 )}
                 <br />
                 {isLoading && (
