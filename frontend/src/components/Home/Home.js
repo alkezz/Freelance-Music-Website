@@ -51,13 +51,11 @@ const Home = () => {
                     </Grow>
                     <br />
                     <Grow {...{ timeout: 6000 }} in={true}>
-                        <Link>
-                            <div className="donations-link">
-                                <Link className="donations-link" to="/portfolio">
-                                    Portfolio
-                                </Link>
-                            </div>
-                        </Link>
+                        <div className="donations-link">
+                            <Link style={{ linkStyle: "none" }} className="donations-link" to="/portfolio">
+                                Portfolio
+                            </Link>
+                        </div>
                     </Grow>
                 </div>
             </div>
