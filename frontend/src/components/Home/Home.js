@@ -49,6 +49,16 @@ const Home = () => {
                             </Link>
                         </div>
                     </Grow>
+                    <br />
+                    <Grow {...{ timeout: 6000 }} in={true}>
+                        <Link>
+                            <div className="donations-link">
+                                <Link className="donations-link" to="/portfolio">
+                                    Portfolio
+                                </Link>
+                            </div>
+                        </Link>
+                    </Grow>
                 </div>
             </div>
             <div style={{ marginLeft: "60px" }}>
