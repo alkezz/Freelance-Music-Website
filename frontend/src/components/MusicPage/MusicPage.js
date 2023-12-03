@@ -4,8 +4,8 @@ import { Link } from "react-router-dom"
 import logo from "../../assets/aliPictureLogo.png"
 import aliLogo from "../../assets/aliLogo.png"
 import CircularProgress from '@mui/material/CircularProgress';
-document.body.style.backgroundColor = "#b11e1e"
 const MusicPage = () => {
+    document.body.style.backgroundColor = "#b11e1e"
     const [isLoading, setIsLoading] = useState(true)
     useEffect(() => {
         setTimeout(() => {
@@ -74,7 +74,7 @@ const MusicPage = () => {
                 {/* <div className="about-me-paragraph">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Quisque id diam vel quam elementum pulvinar etiam. Fringilla ut morbi tincidunt augue interdum velit euismod in. Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat. Nisi est sit amet facilisis magna etiam tempor. Urna nec tincidunt praesent semper feugiat. Integer vitae justo eget magna fermentum iaculis eu non. Faucibus scelerisque eleifend donec pretium. Id porta nibh venenatis cras sed felis. Potenti nullam ac tortor vitae. Netus et malesuada fames ac turpis egestas. Vel orci porta non pulvinar neque laoreet suspendisse interdum. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Vel pharetra vel turpis nunc. Nec nam aliquam sem et tortor. Habitasse platea dictumst quisque sagittis purus. Nam at lectus urna duis convallis. Cursus mattis molestie a iaculis. Senectus et netus et malesuada fames ac turpis egestas sed.</p>
                 </div> */}
-                <div className="bottom-nav-container">
+                {/* <div className="bottom-nav-container">
                     <div className="stay-connected" style={{ display: "flex", flexDirection: "column" }}>
                         <h2>Stay Connected</h2>
                         <Link style={{ textDecoration: "none", color: "#d41d1d" }} to={"https://www.twitter.com/aliezzobezzo"} target="_blank">
@@ -98,7 +98,7 @@ const MusicPage = () => {
                             <img className="aliLogo" alt="logo" src={aliLogo} />
                         </Link>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )
