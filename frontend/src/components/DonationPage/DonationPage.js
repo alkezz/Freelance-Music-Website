@@ -143,7 +143,7 @@ const DonationPage = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="bottom-nav-container">
+                        <div className="bottom-nav-container">
                             <div className="stay-connected" style={{ display: "flex", flexDirection: "column" }}>
                                 <h2>Stay Connected</h2>
                                 <Link style={{ textDecoration: "none", color: "#d41d1d" }} to={"https://www.twitter.com/aliezzobezzo"} target="_blank">
@@ -167,7 +167,7 @@ const DonationPage = () => {
                                     <img alt='logo' draggable={false} className="aliLogo" src={aliLogo} />
                                 </Link>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </>
             )}
@@ -290,7 +290,7 @@ const DonationPage = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="bottom-nav-container">
+                        <div className="bottom-nav-container">
                             <div className="stay-connected" style={{ display: "flex", flexDirection: "column" }}>
                                 <h2>Stay Connected</h2>
                                 <Link style={{ textDecoration: "none", color: "#d41d1d" }} to={"https://www.twitter.com/aliezzobezzo"} target="_blank">
@@ -314,7 +314,7 @@ const DonationPage = () => {
                                     <img alt='logo' className="aliLogo" src={aliLogo} />
                                 </Link>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </>
             )}
@@ -437,7 +437,7 @@ const DonationPage = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="bottom-nav-container">
+                        <div className="bottom-nav-container">
                             <div className="stay-connected" style={{ display: "flex", flexDirection: "column" }}>
                                 <h2>Stay Connected</h2>
                                 <Link style={{ textDecoration: "none", color: "#d41d1d" }} to={"https://www.twitter.com/aliezzobezzo"} target="_blank">
@@ -461,7 +461,7 @@ const DonationPage = () => {
                                     <img className="aliLogo" alt="logo" src={aliLogo} />
                                 </Link>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </>
             )}

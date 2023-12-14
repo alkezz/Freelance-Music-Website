@@ -50,13 +50,13 @@ const Home = () => {
                         </div>
                     </Grow>
                     <br />
-                    <Grow {...{ timeout: 6000 }} in={true}>
+                    {/* <Grow {...{ timeout: 6000 }} in={true}>
                         <div className="donations-link">
                             <Link style={{ linkStyle: "none" }} className="donations-link" to="/portfolio">
                                 Portfolio
                             </Link>
                         </div>
-                    </Grow>
+                    </Grow> */}
                 </div>
             </div>
             <div style={{ marginLeft: "60px" }}>
