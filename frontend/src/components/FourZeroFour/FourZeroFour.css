@@ -16,8 +16,40 @@
   }
 }
 
+@keyframes rainbow2 {
+  0% {
+    color: rgb(164, 51, 51);
+  }
+  25% {
+    color: rgb(70, 70, 236);
+  }
+  50% {
+    color: rgb(76, 159, 76);
+  }
+  75% {
+    color: rgb(218, 151, 27);
+  }
+  100% {
+    color: rgb(164, 51, 51);
+  }
+}
+
 .four-oh-four {
   background-color: rgb(164, 51, 51);
   transition: background-color linear;
   animation: rainbow 10s infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  cursor: default;
+  color: #f5deb3;
+}
+.p-el {
+  /* font-family: Bright; */
+  font-weight: bold;
+  font-size: 28px;
+  /* width: 400px; */
+  text-align: center;
 }

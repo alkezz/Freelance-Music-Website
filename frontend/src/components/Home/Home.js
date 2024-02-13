@@ -7,6 +7,7 @@ import Grow from '@mui/material/Grow';
 import Slide from '@mui/material/Slide';
 import "../Home/Home.css"
 const Home = () => {
+    document.title = 'YWK Ali'
     return (
         <div className="home-container">
             <div style={{ marginRight: "60px" }}>

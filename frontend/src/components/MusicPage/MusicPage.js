@@ -6,6 +6,7 @@ import aliLogo from "../../assets/aliLogo.png"
 import CircularProgress from '@mui/material/CircularProgress';
 document.body.style.backgroundColor = "#b11e1e"
 const MusicPage = () => {
+    document.title = 'YWK Ali | Music'
     const [isLoading, setIsLoading] = useState(true)
     useEffect(() => {
         setTimeout(() => {

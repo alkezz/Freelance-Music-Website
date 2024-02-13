@@ -10,6 +10,7 @@ import aliLogo from "../../assets/aliLogo.png"
 import "./DonationPage.css"
 
 const DonationPage = () => {
+    document.title = 'YWK Ali | Donate';
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
     const handleResize = () => {
         setScreenWidth(window.innerWidth);
