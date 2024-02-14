@@ -63,6 +63,9 @@ export default function Palestine() {
                         </Carousel>
                         <div className="about-product">
                             <h2>Product Name</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo ullamcorper a lacus vestibulum. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo ullamcorper a lacus vestibulum. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus.</p>
+                            <p style={{ fontSize: '30px' }}>$10</p>
                             {/* {currentSlide === 0 && (
                                 <>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo ullamcorper a lacus vestibulum. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus.</p>
