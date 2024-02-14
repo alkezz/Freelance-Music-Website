@@ -7,6 +7,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "./Palestine.css";
 
 export default function Palestine() {
+    //Fundraiser
     document.title = 'YWK Ali | Fundraiser';
     document.body.style.backgroundColor = '#b11e1e'
     return (
