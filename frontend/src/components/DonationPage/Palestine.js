@@ -34,7 +34,7 @@ export default function Palestine() {
                 <h1 style={{ textDecoration: 'underline' }}>Gallery</h1>
                 <h2>ALL PROCEEDS WILL GO TO PALESTINE!</h2>
                 <br />
-                <div style={{ display: 'flex' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     <Carousel className="crsl" infiniteLoop centerMode centerSlidePercentage={85}>
                         <img style={{ padding: '15px' }} src='https://picsum.photos/300?random=5' />
                         <img style={{ padding: '15px' }} src='https://picsum.photos/300?random=4' />
