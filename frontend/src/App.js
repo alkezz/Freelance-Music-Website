@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
-// import DonationPage from "./components/DonationPage/DonationPage"
+import DonationPage from "./components/DonationPage/DonationPage"
 import MusicPage from './components/MusicPage/MusicPage';
 import FourZeroFour from './components/FourZeroFour/FourZeroFour';
 import Palestine from './components/DonationPage/Palestine';
@@ -16,7 +16,7 @@ function App() {
   return (
     <Routes>
       <Route exact path='/' element={<Home />} />
-      <Route exact path='/donate' element={<Palestine />} />
+      <Route exact path='/donate' element={<DonationPage />} />
       <Route exact path='/music' element={<MusicPage />} />
       <Route path='*' element={<FourZeroFour />} />
     </Routes>
