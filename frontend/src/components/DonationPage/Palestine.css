@@ -35,3 +35,22 @@ h1 {
   /* font-family: Bright; */
   padding: 8px;
 }
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-product {
+  width: 500px;
+  margin-left: 50px;
+}
+.crsl {
+  width: 500px;
+  margin: auto;
+}
+.carousel-status {
+  visibility: hidden;
+}
+.thumbs {
+  visibility: hidden;
+}
