@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom"
 import logo from "../../assets/aliPictureLogo.png"
 import palestine from "../../assets/newpalestine.png"
@@ -11,12 +11,12 @@ export default function Palestine() {
     document.title = 'YWK Ali | Fundraiser';
     document.body.style.backgroundColor = '#b11e1e'
     const [currentSlide, setCurrentSlide] = useState(0);
-    const next = () => {
-        setCurrentSlide(prevSlide => prevSlide + 1);
-    };
-    const prev = () => {
-        setCurrentSlide(prevSlide => prevSlide - 1);
-    };
+    // const next = () => {
+    //     setCurrentSlide(prevSlide => prevSlide + 1);
+    // };
+    // const prev = () => {
+    //     setCurrentSlide(prevSlide => prevSlide - 1);
+    // };
     const updateCurrentSlide = (index) => {
         if (currentSlide !== index) {
             setCurrentSlide(index);
@@ -36,30 +36,33 @@ export default function Palestine() {
             </div>
             <div style={{ overflowX: 'hidden' }}>
                 <div className="main-page-container">
-                    <h1>Fundraiser</h1>
+                    <h1 style={{ marginBottom: '-20px' }}>Fundraiser</h1>
+                    <h1 style={{ marginBottom: '-20px' }}>For</h1>
+                    <h1 style={{}}>Falasteen</h1>
                     <button id='main-donate-button'>Donate</button>
-                    <h1>$0 / $1,000</h1>
+                    <h1 style={{}}>$0 / $1,000</h1>
                     <img alt="palestine map" src={palestine} />
-                    <p style={{ fontSize: '28px', color: '#f5deb3', textAlign: 'center', padding: '10px' }}>The Palestinians are suffering from <span style={{ textDecoration: 'underline', fontSize: '32px', color: 'black' }}>GENOCIDE</span> at the hands of the Zionist entity.</p>
-                    <p style={{ fontSize: '28px', color: '#f5deb3', textAlign: 'center' }}>No ifs, ands, or buts, we <span style={{ textDecoration: 'underline', fontSize: '32px', color: 'black' }}>MUST</span> help.</p>
+                    <h2 style={{ fontSize: '28px', color: '#ebcca4', textAlign: 'center', padding: '10px', marginBottom: '-20px' }}>The Palestinians are suffering from <span style={{ textDecoration: 'underline', fontSize: '32px', color: 'black', textShadow: '0px 0px 0px' }}>GENOCIDE</span> at the hands of the Zionist entity.</h2>
+                    <h2 style={{ fontSize: '28px', color: '#ebcca4', textAlign: 'center', }}>No ifs, ands, or buts, we <span style={{ textDecoration: 'underline', fontSize: '32px', color: 'black', textShadow: '0px 0px 0px' }}>MUST</span> help.</h2>
+                    <h2 style={{ textAlign: 'center', color: '#ebcca4', }}>ALL PROCEEDS WILL GO TO PALESTINE</h2>
                 </div>
+                <br />
                 <div className="carousel-container">
                     <h1 style={{ textDecoration: 'underline' }}>Gallery</h1>
-                    <h2>ALL PROCEEDS WILL GO TO PALESTINE!</h2>
                     <br />
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                        <button onClick={prev}>
+                        {/* <button onClick={prev}>
                             Prev
                         </button>
                         <button onClick={next}>
                             Next
-                        </button>
+                        </button> */}
                         <Carousel onChange={updateCurrentSlide} selectedItem={currentSlide} className="crsl" infiniteLoop centerMode centerSlidePercentage={85}>
-                            <img style={{ padding: '15px' }} src='https://picsum.photos/300?random=5' />
-                            <img style={{ padding: '15px' }} src='https://picsum.photos/300?random=4' />
-                            <img style={{ padding: '15px' }} src='https://picsum.photos/300?random=3' />
-                            <img style={{ padding: '15px' }} src='https://picsum.photos/300?random=2' />
-                            <img style={{ padding: '15px' }} src='https://picsum.photos/300?random=1' />
+                            <img alt='random picture' style={{ padding: '15px' }} src='https://picsum.photos/300?random=5' />
+                            <img alt='random picture' style={{ padding: '15px' }} src='https://picsum.photos/300?random=4' />
+                            <img alt='random picture' style={{ padding: '15px' }} src='https://picsum.photos/300?random=3' />
+                            <img alt='random picture' style={{ padding: '15px' }} src='https://picsum.photos/300?random=2' />
+                            <img alt='random picture' style={{ padding: '15px' }} src='https://picsum.photos/300?random=1' />
                         </Carousel>
                         <div className="about-product">
                             <h2>Product Name</h2>
@@ -90,10 +93,10 @@ export default function Palestine() {
                             <button id='main-donate-button'>I Want This</button>
                         </div>
                     </div>
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                        <p style={{ fontSize: '32px', marginBottom: '-10px' }}>I Don't Care</p>
-                        <p style={{ fontSize: '32px', marginBottom: '-10px' }}>I just wanna donate!</p>
-                        <p style={{ fontSize: '32px' }}>No worries! Thank you so much!</p>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', color: '#f5deb3' }}>
+                        <h2 style={{ fontSize: '32px', marginBottom: '-10px' }}>I Don't Care</h2>
+                        <h2 style={{ fontSize: '32px', marginBottom: '-10px' }}>I just wanna donate!</h2>
+                        <h2 style={{ fontSize: '32px' }}>No worries! Thank you so much!</h2>
                         <button id='main-donate-button'>DONATE</button>
                     </div>
                     <br />

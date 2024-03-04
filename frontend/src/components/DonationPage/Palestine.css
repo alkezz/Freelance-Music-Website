@@ -1,3 +1,7 @@
+body{
+  font-family: Tourney;
+  text-shadow: '3px 3px 2px black';
+}
 .top-navbar-donations {
   display: flex;
   flex-direction: row;
@@ -18,23 +22,28 @@
   /* justify-content: center; */
   align-items: center;
   height: 120vh;
+  margin-bottom: 300px;
 }
 h1 {
   font-size: 60px;
   color: #f5deb3;
 }
 #main-donate-button {
-  margin-top: 20px;
-  width: 200px;
+  margin-top: 5px;
+  font-family: Tourney;
+  text-shadow: 2px 3px 2px black;
+  font-size: 48px;
+  color: red;
+  width: 400px;
   cursor: pointer;
   background-color: #ffa30d;
   border: none;
   /* height: 35px; */
   border-radius: 5px;
-  color: #b11e1e;
-  font-size: 25px;
+  /* color: #b11e1e; */
+  /* font-size: 25px; */
   /* font-family: Bright; */
-  padding: 8px;
+  padding: 25px;
 }
 .carousel-container {
   display: flex;
