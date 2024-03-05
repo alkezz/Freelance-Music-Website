@@ -46,7 +46,6 @@ export default function Palestine() {
                     <h2 style={{ fontSize: '28px', color: '#ebcca4', textAlign: 'center', }}>No ifs, ands, or buts, we <span style={{ textDecoration: 'underline', fontSize: '32px', color: 'black', textShadow: '0px 0px 0px' }}>MUST</span> help.</h2>
                     <h2 style={{ textAlign: 'center', color: '#ebcca4', }}>ALL PROCEEDS WILL GO TO PALESTINE</h2>
                 </div>
-                <br />
                 <div className="carousel-container">
                     <h1 style={{ textDecoration: 'underline' }}>Gallery</h1>
                     <br />
@@ -66,9 +65,8 @@ export default function Palestine() {
                         </Carousel>
                         <div className="about-product">
                             <h2>Product Name</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo ullamcorper a lacus vestibulum. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo ullamcorper a lacus vestibulum. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus.</p>
-                            <p style={{ fontSize: '30px' }}>$10</p>
+                            <h2 style={{ fontSize: '20px' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo ullamcorper a lacus vestibulum. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus.</h2>
+                            <p style={{ fontSize: '30px', display: 'flex', justifyContent: 'center' }}>$10</p>
                             {/* {currentSlide === 0 && (
                                 <>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo ullamcorper a lacus vestibulum. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus.</p>
@@ -93,10 +91,11 @@ export default function Palestine() {
                             <button id='main-donate-button'>I Want This</button>
                         </div>
                     </div>
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', color: '#f5deb3' }}>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', color: '#f5deb3', textAlign: 'center' }}>
                         <h2 style={{ fontSize: '32px', marginBottom: '-10px' }}>I Don't Care</h2>
                         <h2 style={{ fontSize: '32px', marginBottom: '-10px' }}>I just wanna donate!</h2>
-                        <h2 style={{ fontSize: '32px' }}>No worries! Thank you so much!</h2>
+                        <h2 style={{ fontSize: '32px' }}>No worries!</h2>
+                        <h2 style={{ fontSize: '32px', marginTop: '-10px' }} >Thank you so much!</h2>
                         <button id='main-donate-button'>DONATE</button>
                     </div>
                     <br />

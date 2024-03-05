@@ -21,8 +21,7 @@ body{
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
-  height: 120vh;
-  margin-bottom: 300px;
+  /* margin-bottom: 300px; */
 }
 h1 {
   font-size: 60px;
@@ -34,7 +33,7 @@ h1 {
   text-shadow: 2px 3px 2px black;
   font-size: 48px;
   color: red;
-  width: 400px;
+  width: 350px;
   cursor: pointer;
   background-color: #ffa30d;
   border: none;
@@ -51,12 +50,14 @@ h1 {
   align-items: center;
 }
 .about-product {
-  width: 500px;
+  width: 350px;
   margin-top: -100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 100px;
+  color:#f3d9af;
+  text-align: center;
 }
 .crsl {
   width: 500px;
