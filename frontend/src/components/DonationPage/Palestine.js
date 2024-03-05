@@ -42,14 +42,15 @@ export default function Palestine() {
                     <button id='main-donate-button'>Donate</button>
                     <h1 style={{}}>$0 / $1,000</h1>
                     <img alt="palestine map" src={palestine} />
-                    <h2 style={{ fontSize: '28px', color: '#ebcca4', textAlign: 'center', padding: '10px', marginBottom: '-20px' }}>Palestinians are suffering from <span style={{ textDecoration: 'underline', fontSize: '32px', color: 'black', textShadow: '0px 0px 0px' }}>GENOCIDE</span>.</h2>
-                    <h2 style={{ fontSize: '28px', color: '#ebcca4', textAlign: 'center', }}>By donating, you are sending direct aid to those who need it.</h2>
-                    <h2 style={{ textAlign: 'center', color: '#ebcca4', }}>ALL PROCEEDS WILL GO TO PALESTINE</h2>
                 </div>
+                <br />
                 <div className="carousel-container">
-                    <h1 style={{ textDecoration: 'underline' }}>Gallery</h1>
+                    <h2 style={{ fontSize: '28px', color: '#ebcca4', textAlign: 'center', padding: '10px', marginBottom: '-30px' }}>Palestinians are suffering from <span style={{ textDecoration: 'underline', fontSize: '32px', color: 'black', textShadow: '0px 0px 0px' }}>GENOCIDE</span>.</h2>
+                    <h2 style={{ fontSize: '28px', color: '#ebcca4', textAlign: 'center', marginBottom: '-10px' }}>By donating, you are sending direct aid to those who need it.</h2>
+                    <h2 style={{ textAlign: 'center', color: '#ebcca4', fontSize: '28px' }}>ALL PROCEEDS WILL GO TO PALESTINE</h2>
+                    <h2 style={{ textAlign: 'center', color: '#ebcca4', fontSize: '12px' }}>check out our gallery. first 30 donators get a free CD</h2>
                     <br />
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '-20px' }}>
                         {/* <button onClick={prev}>
                             Prev
                         </button>
@@ -88,15 +89,17 @@ export default function Palestine() {
                                     <p style={{ fontSize: '30px' }}>$50</p>
                                 </>
                             )} */}
-                            <button id='main-donate-button'>I Want This</button>
+                            <button className='buy-button'>I Want This</button>
                         </div>
                     </div>
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', color: '#f5deb3', textAlign: 'center' }}>
-                        <h2 style={{ fontSize: '32px', marginBottom: '-10px' }}>"I Don't Care"</h2>
-                        <h2 style={{ fontSize: '32px', marginBottom: '10px', marginTop: '10px' }}>"I just wanna donate!"</h2>
-                        <h2 style={{ fontSize: '32px', fontSize: '18px' }}>No worries!</h2>
-                        <h2 style={{ fontSize: '32px', marginTop: '-10px', fontSize: '18px' }} >Thank you so much!</h2>
-                        <button id='main-donate-button'>DONATE</button>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', color: '#f5deb3', textAlign: 'center', marginTop: '-50px' }}>
+                        <button className='donate-button'>
+                            <h2 style={{ fontSize: '28px', marginTop: '20px' }}>"I don't care, I just wanna donate"</h2>
+                            {/* <h2 style={{ fontSize: '32px', marginBottom: '10px', marginTop: '10px' }}>"I just wanna donate!"</h2> */}
+                            {/* <h2 style={{ fontSize: '32px', fontSize: '18p x' }}>No worries!</h2> */}
+                        </button>
+                        {/* <h2 style={{ fontSize: '32px', marginTop: '-10px', fontSize: '18px' }} >Thank you so much!</h2>
+                        <button className='donate-button'>DONATE</button> */}
                     </div>
                     <br />
                     <br />

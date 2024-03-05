@@ -28,6 +28,45 @@ h1 {
   font-size: 60px;
   color: #f5deb3;
 }
+.buy-button{
+  margin-top: 5px;
+  font-family: Tourney;
+  text-shadow: 2px 3px 2px black;
+  font-size: 48px;
+  color: black;
+  width: 350px;
+  cursor: pointer;
+  background-color: #EE2A35;
+  border: none;
+  /* height: 35px; */
+  border-radius: 50px;
+  /* color: #b11e1e; */
+  /* font-size: 25px; */
+  /* font-family: Bright; */
+  padding: 25px;
+}
+.donate-button{
+    margin-top: 5px;
+    font-family: Tourney;
+    /* text-shadow: 2px 3px 2px black; */
+    font-size: 48px;
+    color: black;
+    width: 350px;
+    cursor: pointer;
+    background-color: #EE2A35;
+    border: none;
+    /* height: 35px; */
+    border-radius: 50px;
+    /* color: #b11e1e; */
+    /* font-size: 25px; */
+    /* font-family: Bright; */
+    /* padding: 25px; */
+    height: 100px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
 #main-donate-button {
   margin-top: 5px;
   font-family: Tourney;
