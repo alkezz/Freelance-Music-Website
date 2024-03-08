@@ -25,7 +25,9 @@ body{
   /* margin-bottom: 300px; */
 }
 h1 {
-  font-size: 50px;
+  font-size: 40px;
+  text-shadow: 2px 3px 2px black;
+
   color: #f5deb3;
 }
 .buy-button{
