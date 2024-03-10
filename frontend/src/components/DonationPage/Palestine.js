@@ -46,15 +46,15 @@ export default function Palestine() {
                     <a href='https://pcrf1.app.neoncrm.com/YouWillKnowAli' target='_blank' referrer='noreferrer'>
                         <button id='main-donate-button'>Donate</button>
                     </a>
-                    <div>
+                    {/* <div>
                         <a href='https://cash.app/$aliezzobezzo' target='_blank'>
                             <img id='small-donate-button' src={cashapp} />
                         </a>
                         <a href='https://account.venmo.com/u/youwillknowali' target='_blank'>
                             <img id='small-donate-button' src={venmo} />
                         </a>
-                    </div>
-                    <h1 style={{}}>$0 / $1,000</h1>
+                    </div> */}
+                    <h1>$0 / $1,000</h1>
                     <img alt="palestine map" src={palestine} />
                 </div>
                 <br />
