@@ -26,13 +26,14 @@ export default function Palestine() {
             try {
                 const response = await axios.get('/api/getData'); // Proxy endpoint provided by Vercel
                 const html = response.data;
-                // You may need to parse the HTML response here if necessary
-                setAmount(html); // Assuming html contains the amount
+                const $ = cheerio.load(html);
+                // Extract inner text of elements with class "amount"
+                const amountText = $('.amount').text();
+                setAmount(amountText); // Assuming html contains the amount
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
         };
-
         fetchData()
     }
         , [])
