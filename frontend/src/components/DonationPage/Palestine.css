@@ -12,7 +12,7 @@ body{
   position: sticky;
   z-index: 999;
   top: 0;
-  background-color: #ffa30d;
+  background-color: white;
 }
 .logo-image {
   width: 150px;
