@@ -21,7 +21,7 @@ const MusicPage = () => {
                         <img alt="logo" className="logo-image-music-nav" src={logo} />
                     </Link>
                     <Link to="/" style={{ fontFamily: "Bright", color: "#d41d1d", fontSize: "44px", textDecoration: "none" }}>Home</Link>
-                    <Link className="page-link" to="/donate">Give Back</Link>
+                    <Link className="page-link" to="/donate">Fundraiser</Link>
                 </div>
                 {/* <Link className="donate-page-music-link" to="/">Home</Link> */}
             </div>
