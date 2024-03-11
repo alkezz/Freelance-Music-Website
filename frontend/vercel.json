@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/getData",
+        "destination": "https://pcrf1.app.neoncrm.com/YouWillKnowAli"
+      }
+    ]
+  }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom"
 import logo from "../../assets/aliPictureLogo.png"
 import palestine from "../../assets/newpalestine.png"
@@ -6,24 +6,36 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import cashapp from "../../assets/cashapp.png"
 import venmo from "../../assets/venmo.png"
 import pcrf from "../../assets/pcrf.png"
+import axios from 'axios'
+import cheerio from 'cheerio'
 import "./Palestine.css";
 
 export default function Palestine() {
     //Fundraiser
     document.title = 'YWK Ali | Fundraiser';
     document.body.style.backgroundColor = '#009736'
-    const [currentSlide, setCurrentSlide] = useState(0);
+    const [amount, setAmount] = useState('');
     // const next = () => {
     //     setCurrentSlide(prevSlide => prevSlide + 1);
     // };
     // const prev = () => {
     //     setCurrentSlide(prevSlide => prevSlide - 1);
     // };
-    const updateCurrentSlide = (index) => {
-        if (currentSlide !== index) {
-            setCurrentSlide(index);
-        }
-    };
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await axios.get('/api/getData'); // Proxy endpoint provided by Vercel
+                const html = response.data;
+                // You may need to parse the HTML response here if necessary
+                setAmount(html); // Assuming html contains the amount
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
+
+        fetchData()
+    }
+        , [])
     return (
         <>
             <div className="top-navbar-donations">
@@ -54,7 +66,7 @@ export default function Palestine() {
                             <img id='small-donate-button' src={venmo} />
                         </a>
                     </div> */}
-                    <h1>$0 / $1,000</h1>
+                    <h1>${amount} / $1,000</h1>
                     <img alt="palestine map" src={palestine} />
                 </div>
                 <br />
