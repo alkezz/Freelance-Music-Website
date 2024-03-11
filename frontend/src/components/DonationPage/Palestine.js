@@ -75,7 +75,7 @@ export default function Palestine() {
                     {/* <h2 style={{ fontSize: '28px', color: '#ebcca4', textAlign: 'center', padding: '10px', marginBottom: '-30px' }}>Palestinians are suffering from <span style={{ textDecoration: 'underline', fontSize: '32px', color: 'black', textShadow: '0px 0px 0px' }}>GENOCIDE</span>.</h2>
                     <h2 style={{ fontSize: '28px', color: '#ebcca4', textAlign: 'center', marginBottom: '-10px' }}>By donating, you are sending direct aid to those who need it.</h2> */}
                     <h2 style={{ textAlign: 'center', color: '#ebcca4', fontSize: '28px' }}>ALL PROCEEDS WILL GO TO PALESTINE THROUGH PCRF</h2>
-                    <h2 style={{ textAlign: 'center', color: '#ebcca4', fontSize: '28px', marginTop: '-20px' }}>Transactions done through Cashapp and Venmo will be donated in your name.</h2>
+                    {/* <h2 style={{ textAlign: 'center', color: '#ebcca4', fontSize: '28px', marginTop: '-20px' }}>Transactions done through Cashapp and Venmo will be donated in your name.</h2> */}
                     <br />
                     <br />
                 </div>
