@@ -16,7 +16,7 @@ function App() {
   return (
     <Routes>
       <Route exact path='/' element={<Home />} />
-      <Route exact path='/donate' element={<DonationPage />} />
+      <Route exact path='/donate' element={<Palestine />} />
       <Route exact path='/music' element={<MusicPage />} />
       <Route path='*' element={<FourZeroFour />} />
     </Routes>
