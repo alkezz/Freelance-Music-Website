@@ -28,7 +28,7 @@ export default function Palestine() {
                 const html = response.data;
                 const $ = cheerio.load(html);
                 // Extract inner text of elements with class "amount"
-                const amountText = $('.amount').text();
+                const amountText = $('.left .amount').text();
                 setAmount(amountText); // Assuming html contains the amount
             } catch (error) {
                 console.error('Error fetching data:', error);
