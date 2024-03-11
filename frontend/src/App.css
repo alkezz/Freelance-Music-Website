@@ -2,3 +2,7 @@
   font-family: 'Bright';
   src: local('Bright'), url(./fonts/Bright/Bright\ DEMO.otf) format('opentype');
 }
+@font-face {
+  font-family: 'Tourney';
+  src: url(./fonts/Tourney/Tourney-VariableFont_wdth\,wght.ttf);
+}

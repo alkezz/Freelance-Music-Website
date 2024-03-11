@@ -1,14 +1,42 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom"
 import logo from "../../assets/aliPictureLogo.png"
-import palestine from "../../assets/newpalestine.png"
+import palestine from "../../assets/palestine.png"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import cashapp from "../../assets/cashapp.png"
+import venmo from "../../assets/venmo.png"
+import pcrf from "../../assets/pcrf.png"
+import axios from 'axios'
+import cheerio from 'cheerio'
 import "./Palestine.css";
 
 export default function Palestine() {
+    //Fundraiser
     document.title = 'YWK Ali | Fundraiser';
-    document.body.style.backgroundColor = '#b11e1e'
+    document.body.style.backgroundColor = '#009736'
+    const [amount, setAmount] = useState('');
+    // const next = () => {
+    //     setCurrentSlide(prevSlide => prevSlide + 1);
+    // };
+    // const prev = () => {
+    //     setCurrentSlide(prevSlide => prevSlide - 1);
+    // };
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await axios.get('/api/getData'); // Proxy endpoint provided by Vercel
+                const html = response.data;
+                const $ = cheerio.load(html);
+                // Extract inner text of elements with class "amount"
+                const amountText = $('.left .amount').text();
+                setAmount(amountText); // Assuming html contains the amount
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
+        fetchData()
+    }
+        , [])
     return (
         <>
             <div className="top-navbar-donations">
@@ -21,44 +49,37 @@ export default function Palestine() {
                 </div>
                 {/* <Link className="donate-page-music-link" to="/">Home</Link> */}
             </div>
-            <div className="main-page-container">
-                <h1>Fundraiser</h1>
-                <button id='main-donate-button'>Donate</button>
-                <h1>$0 / $1,000</h1>
-                <img alt="palestine map" src={palestine} />
-                <p style={{ fontSize: '28px', color: '#f5deb3', textAlign: 'center', padding: '10px' }}>The Palestinians are suffering from <span style={{ textDecoration: 'underline', fontSize: '32px', color: 'black' }}>GENOCIDE</span> at the hands of the Zionist entity.</p>
-                <p style={{ fontSize: '28px', color: '#f5deb3', textAlign: 'center' }}>No ifs, ands, or buts, we <span style={{ textDecoration: 'underline', fontSize: '32px', color: 'black' }}>MUST</span> help.</p>
-            </div>
-            <div className="carousel-container">
-                <h1 style={{ textDecoration: 'underline' }}>Gallery</h1>
-                <h2>ALL PROCEEDS WILL GO TO PALESTINE!</h2>
-                <br />
-                <div style={{ display: 'flex' }}>
-                    <Carousel className="crsl" infiniteLoop centerMode centerSlidePercentage={85}>
-                        <img style={{ padding: '15px' }} src='https://picsum.photos/300?random=5' />
-                        <img style={{ padding: '15px' }} src='https://picsum.photos/300?random=4' />
-                        <img style={{ padding: '15px' }} src='https://picsum.photos/300?random=3' />
-                        <img style={{ padding: '15px' }} src='https://picsum.photos/300?random=2' />
-                        <img style={{ padding: '15px' }} src='https://picsum.photos/300?random=1' />
-                    </Carousel>
-                    <div className="about-product">
-                        <h2>Product Name</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo ullamcorper a lacus vestibulum. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo ullamcorper a lacus vestibulum. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Nisi est sit amet facilisis magna etiam tempor. Platea dictumst quisque sagittis purus.</p>
-                        <p style={{ fontSize: '30px' }}>$10</p>
-                        <button id='main-donate-button'>I Want This</button>
-                    </div>
-                </div>
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                    <p style={{ fontSize: '32px', marginBottom: '-10px' }}>I Don't Care</p>
-                    <p style={{ fontSize: '32px', marginBottom: '-10px' }}>I just wanna donate!</p>
-                    <p style={{ fontSize: '32px' }}>No worries! Thank you so much!</p>
-                    <button id='main-donate-button'>DONATE</button>
+            <br />
+            <div style={{ overflowX: 'hidden' }}>
+                <div className="main-page-container">
+                    <h1 style={{ marginBottom: '-20px' }}>Fundraiser</h1>
+                    <h1 style={{ marginBottom: '-20px' }}>For</h1>
+                    <h1>Falasteen</h1>
+                    <img src={pcrf} id='pcrf' />
+                    <a href='https://pcrf1.app.neoncrm.com/YouWillKnowAli' target='_blank' referrer='noreferrer'>
+                        <button id='main-donate-button'>Donate</button>
+                    </a>
+                    {/* <div>
+                        <a href='https://cash.app/$aliezzobezzo' target='_blank'>
+                            <img id='small-donate-button' src={cashapp} />
+                        </a>
+                        <a href='https://account.venmo.com/u/youwillknowali' target='_blank'>
+                            <img id='small-donate-button' src={venmo} />
+                        </a>
+                    </div> */}
+                    <h1>{amount} / $1,000</h1>
+                    <img alt="palestine map" src={palestine} />
                 </div>
                 <br />
-                <br />
-                <br />
-            </div>
+                <div className="carousel-container">
+                    {/* <h2 style={{ fontSize: '28px', color: '#ebcca4', textAlign: 'center', padding: '10px', marginBottom: '-30px' }}>Palestinians are suffering from <span style={{ textDecoration: 'underline', fontSize: '32px', color: 'black', textShadow: '0px 0px 0px' }}>GENOCIDE</span>.</h2>
+                    <h2 style={{ fontSize: '28px', color: '#ebcca4', textAlign: 'center', marginBottom: '-10px' }}>By donating, you are sending direct aid to those who need it.</h2> */}
+                    <h2 style={{ textAlign: 'center', color: '#ebcca4', fontSize: '28px' }}>ALL PROCEEDS WILL GO TO PALESTINE THROUGH PCRF</h2>
+                    {/* <h2 style={{ textAlign: 'center', color: '#ebcca4', fontSize: '28px', marginTop: '-20px' }}>Transactions done through Cashapp and Venmo will be donated in your name.</h2> */}
+                    <br />
+                    <br />
+                </div>
+            </div >
         </>
     )
 }
