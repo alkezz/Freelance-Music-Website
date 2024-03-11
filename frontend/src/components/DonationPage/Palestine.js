@@ -67,7 +67,7 @@ export default function Palestine() {
                             <img id='small-donate-button' src={venmo} />
                         </a>
                     </div> */}
-                    <h1>${amount} / $1,000</h1>
+                    <h1>{amount} / $1,000</h1>
                     <img alt="palestine map" src={palestine} />
                 </div>
                 <br />

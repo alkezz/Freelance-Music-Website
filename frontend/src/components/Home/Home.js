@@ -46,7 +46,7 @@ const Home = () => {
                     <Grow {...{ timeout: 6000 }} in={true}>
                         <div className="donations-link">
                             <Link className="donations-link" to="/donate">
-                                Give Back
+                                Fundraiser
                             </Link>
                         </div>
                     </Grow>
