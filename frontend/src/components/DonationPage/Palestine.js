@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom"
 import logo from "../../assets/aliPictureLogo.png"
-import palestine from "../../assets/palestine1.png"
+import palestine from "../../assets/palestine5.png"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import cashapp from "../../assets/cashapp.png"
 import venmo from "../../assets/venmo.png"
