@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom"
 import logo from "../../assets/aliPictureLogo.png"
-import palestine from "../../assets/palestine5.png"
+import palestine from "../../assets/palestine4.png"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import cashapp from "../../assets/cashapp.png"
 import venmo from "../../assets/venmo.png"
@@ -67,7 +67,7 @@ export default function Palestine() {
                             <img id='small-donate-button' src={venmo} />
                         </a>
                     </div> */}
-                    <h1>{amount} / $1,000</h1>
+                    <h1>{amount} / $1,500</h1>
                     <img alt="palestine map" src={palestine} />
                 </div>
                 <br />
