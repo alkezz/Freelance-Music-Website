@@ -37,7 +37,7 @@ const Home = () => {
                     <br />
                     <Grow {...{ timeout: 6000 }} in={true}>
                         <div className="donations-link">
-                            <Link className="donations-link" target="_blank" to="https://distrokid.com/hyperfollow/youwillknowali/skin">
+                            <Link className="donations-link" target="_blank" to="https://distrokid.com/hyperfollow/youwillknowali/so-i-did-2">
                                 Pre-Order
                             </Link>
                         </div>

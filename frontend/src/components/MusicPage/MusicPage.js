@@ -32,7 +32,7 @@ const MusicPage = () => {
                 {/* <br /> */}
                 <div className="streaming-services-container">
                     <Link to="https://open.spotify.com/artist/3MY6vqsnQMgTOJO2MEeqgm?si=p3HGe97GQy6Km-8vnKarsg" target="_blank" className='streaming-logo spotify'><i class="fa-brands fa-spotify fa-5x"></i></Link>
-                    <Link to="https://music.apple.com/us/artist/ali/1634430857" target="_blank" className='streaming-logo apple'><i class="fa-brands fa-apple fa-5x"></i></Link>
+                    <Link to="https://music.apple.com/us/artist/you-will-know-ali/1774041024" target="_blank" className='streaming-logo apple'><i class="fa-brands fa-apple fa-5x"></i></Link>
                     <Link to="https://youtube.com/@youwillknowali412" target="_blank" className='streaming-logo youtube'><i class="fa-brands fa-youtube fa-5x"></i></Link>
                     <Link to="https://on.soundcloud.com/crn53KykTkYZUHVi7" target="_blank" className='streaming-logo soundcloud'><i class="fa-brands fa-soundcloud fa-5x"></i></Link>
                     <Link to="https://music.amazon.com/artists/B0B721ZN63/you-will-know-ali?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_5U7MxWRzX5RG0ag5WqWuZmS6B" target="_blank" className='streaming-logo amazon'><i class="fa-brands fa-amazon fa-5x"></i></Link>
