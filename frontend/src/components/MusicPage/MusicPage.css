@@ -3,13 +3,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #b11e1e;
+    background-color: rgb(69, 69, 0);
     padding-top: 20px;
     margin-top: 25px;
   }
   .page-link {
     text-decoration: none;
-    color: #d41d1d;
+    color: rgb(69, 69, 0);
     font-family: Bright;
     font-size: 44px;
     margin-left: 15px;
@@ -19,13 +19,13 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    border-bottom: 1px solid #d41d1d;
+    border-bottom: 1px solid rgb(69, 69, 0);
     padding-top: 0;
     position: sticky;
     margin: 0;
     z-index: 999;
     top: 0;
-    background-color: #ffa30d;
+    background-color: wheat;
   }
   #image-logo {
     width: 200px;
@@ -47,6 +47,8 @@
     border-radius: 1000px;
     padding: 30px;
     width: fit-content;
+    width: -moz-fit-content;
+    width: -moz-fit-content;
     height: 60px;
     width: 60px;
     background-color: white;
@@ -142,8 +144,8 @@
     justify-content: space-evenly;
     flex-direction: row;
     width: 100%;
-    background-color: #ffa30d;
-    border-top: 1px solid #d41d1d;
+    background-color: wheat;
+    border-top: 1px solid rgb(69, 69, 0);
   }
   .logo-image-music-nav {
     width: 150px;
@@ -152,12 +154,12 @@
 }
 @media screen and (max-width: 844px) and (min-width: 675px) {
   /* body {
-    background-color: #b11e1e;
+    background-color: #454500;
   } */
   .page-link {
     text-decoration: none;
-    color: #d41d1d;
-    font-family: Bright;
+    color: #454500;
+    font-family: Daydream;
     font-size: 44px;
     margin-left: 15px;
     height: fit-content;
@@ -167,7 +169,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-    background-color: #b11e1e;
+    background-color: #454500;
   }
   #image-logo {
     width: 200px;
@@ -190,6 +192,7 @@
     border-radius: 1000px;
     padding: 30px;
     width: fit-content;
+    width: -moz-fit-content;
     height: 60px;
     width: 60px;
     background-color: white;
@@ -298,12 +301,12 @@
 }
 @media screen and (max-width: 674px) and (min-width: 531px) {
   /* body {
-    background-color: #b11e1e;
+    background-color: #454500;
   } */
   .page-link {
     text-decoration: none;
-    color: #d41d1d;
-    font-family: Bright;
+    color: wheat;
+    font-family: Daydream;
     font-size: 44px;
     margin-left: 15px;
     height: fit-content;
@@ -313,7 +316,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-    background-color: #b11e1e;
+    background-color: #454500;
   }
   #image-logo {
     width: 200px;
@@ -336,6 +339,7 @@
     border-radius: 1000px;
     padding: 30px;
     width: fit-content;
+    width: -moz-fit-content;
     height: 60px;
     width: 60px;
     background-color: white;
@@ -440,12 +444,12 @@
 }
 @media screen and (max-width: 530px) and (min-width: 401px) {
   /* body {
-    background-color: #b11e1e;
+    background-color: #454500;
   } */
   .page-link {
     text-decoration: none;
-    color: #d41d1d;
-    font-family: Bright;
+    color: wheat;
+    font-family: Daydream;
     font-size: 44px;
     margin-left: 15px;
     height: fit-content;
@@ -455,7 +459,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-    background-color: #b11e1e;
+    background-color: #454500;
   }
   #image-logo {
     width: 200px;
@@ -479,6 +483,7 @@
     border-radius: 1000px;
     padding: 30px;
     width: fit-content;
+    width: -moz-fit-content;
     height: 60px;
     width: 60px;
     background-color: white;
@@ -583,12 +588,12 @@
 }
 @media screen and (max-width: 400px) {
   /* body {
-    background-color: #b11e1e;
+    background-color: #454500;
   } */
   .page-link {
     text-decoration: none;
-    color: #d41d1d;
-    font-family: Bright;
+    color: wheat;
+    font-family: Daydream;
     font-size: 44px;
     margin-left: 15px;
     height: fit-content;
@@ -598,7 +603,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-    background-color: #b11e1e;
+    background-color: #454500;
   }
   #image-logo {
     width: 200px;
@@ -622,6 +627,7 @@
     border-radius: 1000px;
     padding: 30px;
     width: fit-content;
+    width: -moz-fit-content;
     height: 45px;
     width: 45px;
     background-color: white;

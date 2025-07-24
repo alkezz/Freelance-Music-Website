@@ -2,6 +2,8 @@ import React from "react"
 import { Link } from "react-router-dom"
 import homeImage from "../../assets/homeImage.jpg"
 import homeImageThree from "../../assets/home-image-3.png"
+import videoOne from "../../assets/videos/ajVideo1.mov"
+import videoTwo from "../../assets/videos/ajVideo2.mov"
 import logo from "../../assets/aliPictureLogo.png"
 import Grow from '@mui/material/Grow';
 import Slide from '@mui/material/Slide';
@@ -11,7 +13,9 @@ const Home = () => {
     return (
         <div className="home-container">
             <div style={{ marginRight: "60px" }}>
-                <img load draggable={false} alt="Ali drinking water" id="home-image" src={homeImage} />
+                <video autoplay='autplay' loop muted id="home-image">
+                    <source src={videoOne} type="video/mp4" />
+                </video>
             </div>
             <div className="middle-container">
                 <div className="title">
@@ -37,19 +41,19 @@ const Home = () => {
                     <br />
                     <Grow {...{ timeout: 6000 }} in={true}>
                         <div className="donations-link">
-                            <Link className="donations-link" target="_blank" to="https://distrokid.com/hyperfollow/youwillknowali/skin">
+                            <Link className="donations-link" target="_blank" to="https://distrokid.com/hyperfollow/youwillknowali/so-i-did-2">
                                 Pre-Order
                             </Link>
                         </div>
                     </Grow>
                     <br />
-                    <Grow {...{ timeout: 6000 }} in={true}>
+                    {/* <Grow {...{ timeout: 6000 }} in={true}>
                         <div className="donations-link">
                             <Link className="donations-link" to="/donate">
                                 Fundraiser
                             </Link>
                         </div>
-                    </Grow>
+                    </Grow> */}
                     <br />
                     {/* <Grow {...{ timeout: 6000 }} in={true}>
                         <div className="donations-link">
@@ -61,7 +65,9 @@ const Home = () => {
                 </div>
             </div>
             <div style={{ marginLeft: "60px" }}>
-                <img load draggable={false} alt="Ali in a shopping cart" id="home-image" src={homeImageThree} />
+                <video autoplay='autplay' loop muted id="home-image">
+                    <source src={videoTwo} type="video/mp4" />
+                </video>
             </div>
         </div>
     )
